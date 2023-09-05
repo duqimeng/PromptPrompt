@@ -1,0 +1,17 @@
+b100	Accuracy of the model on the 1198 test samples: 80 %-------------
+sbr5	Accuracy of the model on the 900 test samples: 69 %-------------
+mw2	Accuracy of the model on the 792 test samples: 78 %-------------
+12228	Accuracy of the model on the 638 test samples: 80 %-------------
+1021	Accuracy of the model on the 5948 test samples: 69 %-------------
+rm1221	Accuracy of the model on the 819 test samples: 74 %-------------
+26695	Accuracy of the model on the 840 test samples: 77 %-------------
+DS2	Accuracy of the model on the 1784 test samples: 88 %-------------
+168	Accuracy of the model on the 259 test samples: 70 %-------------
+j2315	Accuracy of the model on the 3926 test samples: 78 %-------------
+coli	Accuracy of the model on the 1352 test samples: 77 %-------------
+c58	Accuracy of the model on the 279 test samples: 64 %-------------
+usda110	Accuracy of the model on the 6054 test samples: 72 %-------------
+nctc13129	Accuracy of the model on the 617 test samples: 76 %-------------
+m90t	Accuracy of the model on the 4016 test samples: 77 %-------------
+13032	Accuracy of the model on the 1245 test samples: 78 %-------------
+mg1655	Accuracy of the model on the 2521 test samples: 68 %-------------

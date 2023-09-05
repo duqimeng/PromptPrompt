@@ -1,0 +1,34 @@
+b100	Accuracy of the model on the 4794 train samples: 85 %-------------	Accuracy of the model on the 1198 test samples: 80 %-------------
+b100	Accuracy of the model on the 1198 test samples: 80 %-------------
+sbr5	Accuracy of the model on the 3658 train samples: 80 %-------------	Accuracy of the model on the 900 test samples: 68 %-------------
+sbr5	Accuracy of the model on the 900 test samples: 68 %-------------
+mw2	Accuracy of the model on the 3174 train samples: 87 %-------------	Accuracy of the model on the 792 test samples: 79 %-------------
+mw2	Accuracy of the model on the 792 test samples: 79 %-------------
+12228	Accuracy of the model on the 2692 train samples: 86 %-------------	Accuracy of the model on the 638 test samples: 79 %-------------
+12228	Accuracy of the model on the 638 test samples: 79 %-------------
+1021	Accuracy of the model on the 23802 train samples: 73 %-------------	Accuracy of the model on the 5948 test samples: 69 %-------------
+1021	Accuracy of the model on the 5948 test samples: 69 %-------------
+rm1221	Accuracy of the model on the 3279 train samples: 83 %-------------	Accuracy of the model on the 819 test samples: 73 %-------------
+rm1221	Accuracy of the model on the 819 test samples: 73 %-------------
+26695	Accuracy of the model on the 3410 train samples: 85 %-------------	Accuracy of the model on the 840 test samples: 77 %-------------
+26695	Accuracy of the model on the 840 test samples: 77 %-------------
+DS2	Accuracy of the model on the 7290 train samples: 92 %-------------	Accuracy of the model on the 1784 test samples: 89 %-------------
+DS2	Accuracy of the model on the 1784 test samples: 89 %-------------
+168	Accuracy of the model on the 1079 train samples: 84 %-------------	Accuracy of the model on the 259 test samples: 66 %-------------
+168	Accuracy of the model on the 259 test samples: 66 %-------------
+j2315	Accuracy of the model on the 15764 train samples: 83 %-------------	Accuracy of the model on the 3926 test samples: 78 %-------------
+j2315	Accuracy of the model on the 3926 test samples: 78 %-------------
+coli	Accuracy of the model on the 5412 train samples: 84 %-------------	Accuracy of the model on the 1352 test samples: 77 %-------------
+coli	Accuracy of the model on the 1352 test samples: 77 %-------------
+c58	Accuracy of the model on the 1133 train samples: 82 %-------------	Accuracy of the model on the 279 test samples: 63 %-------------
+c58	Accuracy of the model on the 279 test samples: 63 %-------------
+usda110	Accuracy of the model on the 24238 train samples: 76 %-------------	Accuracy of the model on the 6054 test samples: 72 %-------------
+usda110	Accuracy of the model on the 6054 test samples: 72 %-------------
+nctc13129	Accuracy of the model on the 2487 train samples: 84 %-------------	Accuracy of the model on the 617 test samples: 73 %-------------
+nctc13129	Accuracy of the model on the 617 test samples: 73 %-------------
+m90t	Accuracy of the model on the 16288 train samples: 82 %-------------	Accuracy of the model on the 4016 test samples: 77 %-------------
+m90t	Accuracy of the model on the 4016 test samples: 77 %-------------
+13032	Accuracy of the model on the 5011 train samples: 85 %-------------	Accuracy of the model on the 1245 test samples: 77 %-------------
+13032	Accuracy of the model on the 1245 test samples: 77 %-------------
+mg1655	Accuracy of the model on the 10199 train samples: 76 %-------------	Accuracy of the model on the 2521 test samples: 69 %-------------
+mg1655	Accuracy of the model on the 2521 test samples: 69 %-------------
