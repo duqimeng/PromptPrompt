@@ -1,0 +1,703 @@
+2023-05-17 21:44:24 deprecation_wrapper.py[line:119] WARNING: From /data/duqimeng/CUBT_new_data/one/168/1_qidongzi/6CUBT_LR_model/LR_model/config.py:20: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2023-05-17 21:44:24 config.py[line:33] INFO: {'fo_limit': 78, 'char_limit': 82, '7_place_holder_six': {'min_count': 2, 'limit': 76, 'size': 3793}, 'six_limit': 76, '4_place_holder_tri': {'min_count': 3, 'limit': 79, 'size': 60}, '5_place_holder_fo': {'min_count': 3, 'limit': 78, 'size': 240}, 'five_limit': 77, '6_place_holder_five': {'min_count': 2, 'limit': 77, 'size': 980}, 'tri_limit': 79, 'uni_limit': 82, 'portion': 0.0, 'total_train': 1079, '3_place_holder_bi': {'min_count': 3, 'limit': 80, 'size': 15}, '2_place_holder_uni': {'min_count': 5, 'limit': 82, 'size': 7}, 'bi_limit': 80, 'limit_label': 2, '1_place_holder_char': {'min_count': 5, 'limit': 82, 'size': 7}}
+2023-05-17 21:44:24 deprecation_wrapper.py[line:119] WARNING: From main.py:22: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+2023-05-17 21:44:24 deprecation_wrapper.py[line:119] WARNING: From main.py:45: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2023-05-17 21:44:24 LR2.py[line:100] INFO: build_place_holder
+2023-05-17 21:44:24 deprecation_wrapper.py[line:119] WARNING: From /data/duqimeng/CUBT_new_data/one/168/1_qidongzi/6CUBT_LR_model/LR_model/model/LR2.py:101: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2023-05-17 21:44:24 deprecation_wrapper.py[line:119] WARNING: From /data/duqimeng/CUBT_new_data/one/168/1_qidongzi/6CUBT_LR_model/LR_model/model/LR2.py:105: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2023-05-17 21:44:24 LR2.py[line:217] INFO: buildloss
+2023-05-17 21:44:24 LR2.py[line:264] INFO: buildOptimizer2
+2023-05-17 21:44:24 deprecation_wrapper.py[line:119] WARNING: From /data/duqimeng/CUBT_new_data/one/168/1_qidongzi/6CUBT_LR_model/LR_model/model/LR2.py:276: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2023-05-17 21:44:24 deprecation.py[line:323] WARNING: From /data/anaconda3/envs/py2.7/lib/python2.7/site-packages/tensorflow/python/ops/math_grad.py:1205: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2023-05-17 21:44:25 deprecation_wrapper.py[line:119] WARNING: From /data/duqimeng/CUBT_new_data/one/168/1_qidongzi/6CUBT_LR_model/LR_model/model/LR2.py:57: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._activation	<function <lambda> at 0x7f7060ce2e60>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._batch_size	Tensor("strided_slice:0", shape=(), dtype=int32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._checkpoint_path	ckpt/
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._cost	Tensor("loss/Sum:0", shape=(), dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._drop_out	0.5
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._dropout	Tensor("Placeholder:0", dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature1_a	Tensor("input_linear_layer/embedding_lookup/Identity:0", shape=(?, 80, 2), dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature1_bias	<tf.Variable 'input_linear_layer/feature1_bias:0' shape=(2,) dtype=float32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature1_id	Tensor("input_linear_layer/feature_3:0", shape=(?, 80), dtype=int32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature1_limit	80
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature1_vocab	15
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature1_weight	<tf.Variable 'input_linear_layer/3_feature1_weight:0' shape=(15, 2) dtype=float32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature2_a	Tensor("input_linear_layer/embedding_lookup_1/Identity:0", shape=(?, 79, 2), dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature2_bias	<tf.Variable 'input_linear_layer/feature2_bias:0' shape=(2,) dtype=float32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature2_id	Tensor("input_linear_layer/feature_4:0", shape=(?, 79), dtype=int32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature2_limit	79
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature2_vocab	60
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature2_weight	<tf.Variable 'input_linear_layer/4_feature1_weight:0' shape=(60, 2) dtype=float32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature3_a	Tensor("input_linear_layer/embedding_lookup_2/Identity:0", shape=(?, 78, 2), dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature3_bias	<tf.Variable 'input_linear_layer/feature3_bias:0' shape=(2,) dtype=float32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature3_id	Tensor("input_linear_layer/feature_5:0", shape=(?, 78), dtype=int32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature3_limit	78
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature3_vocab	240
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature3_weight	<tf.Variable 'input_linear_layer/5_feature3_weight:0' shape=(240, 2) dtype=float32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature4_a	Tensor("input_linear_layer/embedding_lookup_3/Identity:0", shape=(?, 77, 2), dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature4_bias	<tf.Variable 'input_linear_layer/feature4_bias:0' shape=(2,) dtype=float32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature4_id	Tensor("input_linear_layer/feature_6:0", shape=(?, 77), dtype=int32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature4_limit	77
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature4_vocab	980
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature4_weight	<tf.Variable 'input_linear_layer/6_feature4_weight:0' shape=(980, 2) dtype=float32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature5_a	Tensor("input_linear_layer/embedding_lookup_4/Identity:0", shape=(?, 76, 2), dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature5_bias	<tf.Variable 'input_linear_layer/feature5_bias:0' shape=(2,) dtype=float32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature5_id	Tensor("input_linear_layer/feature_7:0", shape=(?, 76), dtype=int32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature5_limit	76
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature5_vocab	3793
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._feature5_weight	<tf.Variable 'input_linear_layer/7_feature5_weight:0' shape=(3793, 2) dtype=float32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._global_step	<tf.Variable 'Variable:0' shape=() dtype=int32_ref>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._initializer	<function _initializer at 0x7f7060ce2cf8>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._l1_regularization	0.1
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._l2_reg_term	Tensor("optimizer/get_regularization_penalty:0", shape=(), dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._l2_regularization	0.7
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._l2_regularizer	<function l2 at 0x7f708c1728c0>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._loss	Tensor("loss/Pow:0", shape=(?, 2), dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._lr	0.0003
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._lr_out	[<tf.Tensor 'input_linear_layer/add:0' shape=(?, 2) dtype=float32>, <tf.Tensor 'input_linear_layer/add_1:0' shape=(?, 2) dtype=float32>, <tf.Tensor 'input_linear_layer/add_2:0' shape=(?, 2) dtype=float32>, <tf.Tensor 'input_linear_layer/add_3:0' shape=(?, 2) dtype=float32>, <tf.Tensor 'input_linear_layer/add_4:0' shape=(?, 2) dtype=float32>]
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._lr_out_final	Tensor("add_4:0", shape=(?, 2), dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._out	Tensor("loss/Sigmoid:0", shape=(?, 2), dtype=float32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._place_holder_list	[]
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._place_holders	[<tf.Tensor 'input_linear_layer/feature_3:0' shape=(?, 80) dtype=int32>, <tf.Tensor 'input_linear_layer/feature_4:0' shape=(?, 79) dtype=int32>, <tf.Tensor 'input_linear_layer/feature_5:0' shape=(?, 78) dtype=int32>, <tf.Tensor 'input_linear_layer/feature_6:0' shape=(?, 77) dtype=int32>, <tf.Tensor 'input_linear_layer/feature_7:0' shape=(?, 76) dtype=int32>]
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._saver	<tensorflow.python.training.saver.Saver object at 0x7f706006c710>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._sess	<tensorflow.python.client.session.Session object at 0x7f7060ce6210>
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._tag	Tensor("tag:0", shape=(?, 2), dtype=int32)
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._tag_colunms	2
+2023-05-17 21:44:25 LR2.py[line:73] INFO: self._train_op	name: "Adam"
+op: "NoOp"
+input: "^Adam/update_alpha/ap/ApplyAdam"
+input: "^Adam/update_input_linear_layer/3_feature1_weight/group_deps"
+input: "^Adam/update_input_linear_layer/feature1_bias/ApplyAdam"
+input: "^Adam/update_input_linear_layer/4_feature1_weight/group_deps"
+input: "^Adam/update_input_linear_layer/feature2_bias/ApplyAdam"
+input: "^Adam/update_input_linear_layer/5_feature3_weight/group_deps"
+input: "^Adam/update_input_linear_layer/feature3_bias/ApplyAdam"
+input: "^Adam/update_input_linear_layer/6_feature4_weight/group_deps"
+input: "^Adam/update_input_linear_layer/feature4_bias/ApplyAdam"
+input: "^Adam/update_input_linear_layer/7_feature5_weight/group_deps"
+input: "^Adam/update_input_linear_layer/feature5_bias/ApplyAdam"
+input: "^Adam/update_coe/coe_0/ApplyAdam"
+input: "^Adam/update_coe/coe_1/ApplyAdam"
+input: "^Adam/update_coe/coe_2/ApplyAdam"
+input: "^Adam/update_coe/coe_3/ApplyAdam"
+input: "^Adam/update_coe/coe_4/ApplyAdam"
+input: "^Adam/Assign"
+input: "^Adam/Assign_1"
+
+2023-05-17 21:44:25 main.py[line:47] INFO: in model now
+2023-05-17 21:44:25 main.py[line:60] INFO: train
+2023-05-17 21:44:25 LR2.py[line:315] INFO: 0 th epoch!
+2023-05-17 21:44:25 LR2.py[line:415] INFO: test: the accuracy is 0.610038610039
+2023-05-17 21:44:25 LR2.py[line:418] INFO: test: steps 4,cost 1.56640,recall_0 is 0.27407,pre_0 is 0.925 f1_0 is 0.42286,recall_1 is 0.97619047619 pre_1 is 0.55656, f1_1 is 0.70893
+2023-05-17 21:44:25 LR2.py[line:419] INFO: test: right is122, in pre is 220, in real is 125
+2023-05-17 21:44:25 LR2.py[line:442] INFO: train: steps 4,cost 1.56640,recall_0 is 0.21269,pre_0 is 0.926829268293 f1_0 is 0.34598,recall_1 is 0.983486238532 pre_1 is 0.55950, f1_1 is 0.71324
+2023-05-17 21:44:25 LR2.py[line:444] INFO: train_acc: 0.600556070436
+2023-05-17 21:44:25 LR2.py[line:315] INFO: 1 th epoch!
+2023-05-17 21:44:26 LR2.py[line:415] INFO: test: the accuracy is 0.606177606178
+2023-05-17 21:44:26 LR2.py[line:418] INFO: test: steps 4,cost 1.56746,recall_0 is 0.26667,pre_0 is 0.923076923077 f1_0 is 0.41379,recall_1 is 0.97619047619 pre_1 is 0.55405, f1_1 is 0.70690
+2023-05-17 21:44:26 LR2.py[line:419] INFO: test: right is122, in pre is 221, in real is 125
+2023-05-17 21:44:26 LR2.py[line:442] INFO: train: steps 4,cost 1.56746,recall_0 is 0.22201,pre_0 is 0.9296875 f1_0 is 0.35843,recall_1 is 0.983486238532 pre_1 is 0.56243, f1_1 is 0.71562
+2023-05-17 21:44:26 LR2.py[line:444] INFO: train_acc: 0.605189990732
+2023-05-17 21:44:26 LR2.py[line:315] INFO: 2 th epoch!
+2023-05-17 21:44:26 LR2.py[line:415] INFO: test: the accuracy is 0.606177606178
+2023-05-17 21:44:26 LR2.py[line:418] INFO: test: steps 4,cost 1.56882,recall_0 is 0.26667,pre_0 is 0.923076923077 f1_0 is 0.41379,recall_1 is 0.97619047619 pre_1 is 0.55405, f1_1 is 0.70690
+2023-05-17 21:44:26 LR2.py[line:419] INFO: test: right is122, in pre is 221, in real is 125
+2023-05-17 21:44:26 LR2.py[line:442] INFO: train: steps 4,cost 1.56882,recall_0 is 0.22015,pre_0 is 0.936507936508 f1_0 is 0.35650,recall_1 is 0.985321100917 pre_1 is 0.56230, f1_1 is 0.71600
+2023-05-17 21:44:26 LR2.py[line:444] INFO: train_acc: 0.605189990732
+2023-05-17 21:44:26 LR2.py[line:315] INFO: 3 th epoch!
+2023-05-17 21:44:26 LR2.py[line:415] INFO: test: the accuracy is 0.602316602317
+2023-05-17 21:44:26 LR2.py[line:418] INFO: test: steps 4,cost 1.57024,recall_0 is 0.25926,pre_0 is 0.921052631579 f1_0 is 0.40462,recall_1 is 0.97619047619 pre_1 is 0.55157, f1_1 is 0.70487
+2023-05-17 21:44:26 LR2.py[line:419] INFO: test: right is122, in pre is 222, in real is 125
+2023-05-17 21:44:26 LR2.py[line:442] INFO: train: steps 4,cost 1.57024,recall_0 is 0.21269,pre_0 is 0.942148760331 f1_0 is 0.34703,recall_1 is 0.987155963303 pre_1 is 0.56042, f1_1 is 0.71495
+2023-05-17 21:44:26 LR2.py[line:444] INFO: train_acc: 0.602409638554
+2023-05-17 21:44:26 LR2.py[line:315] INFO: 4 th epoch!
+2023-05-17 21:44:26 LR2.py[line:415] INFO: test: the accuracy is 0.602316602317
+2023-05-17 21:44:26 LR2.py[line:418] INFO: test: steps 4,cost 1.57165,recall_0 is 0.25926,pre_0 is 0.921052631579 f1_0 is 0.40462,recall_1 is 0.97619047619 pre_1 is 0.55157, f1_1 is 0.70487
+2023-05-17 21:44:26 LR2.py[line:419] INFO: test: right is122, in pre is 222, in real is 125
+2023-05-17 21:44:26 LR2.py[line:442] INFO: train: steps 4,cost 1.57165,recall_0 is 0.20896,pre_0 is 0.949152542373 f1_0 is 0.34251,recall_1 is 0.988990825688 pre_1 is 0.55971, f1_1 is 0.71485
+2023-05-17 21:44:26 LR2.py[line:444] INFO: train_acc: 0.601482854495
+2023-05-17 21:44:26 LR2.py[line:315] INFO: 5 th epoch!
+2023-05-17 21:44:26 LR2.py[line:415] INFO: test: the accuracy is 0.602316602317
+2023-05-17 21:44:26 LR2.py[line:418] INFO: test: steps 4,cost 1.57299,recall_0 is 0.25926,pre_0 is 0.921052631579 f1_0 is 0.40462,recall_1 is 0.97619047619 pre_1 is 0.55157, f1_1 is 0.70487
+2023-05-17 21:44:26 LR2.py[line:419] INFO: test: right is122, in pre is 222, in real is 125
+2023-05-17 21:44:26 LR2.py[line:442] INFO: train: steps 4,cost 1.57299,recall_0 is 0.20336,pre_0 is 0.947826086957 f1_0 is 0.33487,recall_1 is 0.988990825688 pre_1 is 0.55797, f1_1 is 0.71343
+2023-05-17 21:44:26 LR2.py[line:444] INFO: train_acc: 0.598702502317
+2023-05-17 21:44:26 LR2.py[line:315] INFO: 6 th epoch!
+2023-05-17 21:44:26 LR2.py[line:415] INFO: test: the accuracy is 0.594594594595
+2023-05-17 21:44:26 LR2.py[line:418] INFO: test: steps 4,cost 1.57425,recall_0 is 0.24444,pre_0 is 0.916666666667 f1_0 is 0.38596,recall_1 is 0.97619047619 pre_1 is 0.54667, f1_1 is 0.70085
+2023-05-17 21:44:26 LR2.py[line:419] INFO: test: right is122, in pre is 224, in real is 125
+2023-05-17 21:44:26 LR2.py[line:442] INFO: train: steps 4,cost 1.57425,recall_0 is 0.20336,pre_0 is 0.947826086957 f1_0 is 0.33487,recall_1 is 0.988990825688 pre_1 is 0.55797, f1_1 is 0.71343
+2023-05-17 21:44:26 LR2.py[line:444] INFO: train_acc: 0.598702502317
+2023-05-17 21:44:26 LR2.py[line:315] INFO: 7 th epoch!
+2023-05-17 21:44:26 LR2.py[line:415] INFO: test: the accuracy is 0.598455598456
+2023-05-17 21:44:26 LR2.py[line:418] INFO: test: steps 4,cost 1.57540,recall_0 is 0.25185,pre_0 is 0.918918918919 f1_0 is 0.39535,recall_1 is 0.97619047619 pre_1 is 0.54911, f1_1 is 0.70286
+2023-05-17 21:44:26 LR2.py[line:419] INFO: test: right is122, in pre is 223, in real is 125
+2023-05-17 21:44:26 LR2.py[line:442] INFO: train: steps 4,cost 1.57540,recall_0 is 0.20149,pre_0 is 0.955752212389 f1_0 is 0.33282,recall_1 is 0.990825688073 pre_1 is 0.55785, f1_1 is 0.71381
+2023-05-17 21:44:26 LR2.py[line:444] INFO: train_acc: 0.598702502317
+2023-05-17 21:44:26 LR2.py[line:315] INFO: 8 th epoch!
+2023-05-17 21:44:27 LR2.py[line:415] INFO: test: the accuracy is 0.598455598456
+2023-05-17 21:44:27 LR2.py[line:418] INFO: test: steps 4,cost 1.57641,recall_0 is 0.25185,pre_0 is 0.918918918919 f1_0 is 0.39535,recall_1 is 0.97619047619 pre_1 is 0.54911, f1_1 is 0.70286
+2023-05-17 21:44:27 LR2.py[line:419] INFO: test: right is122, in pre is 223, in real is 125
+2023-05-17 21:44:27 LR2.py[line:442] INFO: train: steps 4,cost 1.57641,recall_0 is 0.20149,pre_0 is 0.964285714286 f1_0 is 0.33333,recall_1 is 0.992660550459 pre_1 is 0.55831, f1_1 is 0.71466
+2023-05-17 21:44:27 LR2.py[line:444] INFO: train_acc: 0.599629286376
+2023-05-17 21:44:27 LR2.py[line:315] INFO: 9 th epoch!
+2023-05-17 21:44:27 LR2.py[line:415] INFO: test: the accuracy is 0.590733590734
+2023-05-17 21:44:27 LR2.py[line:418] INFO: test: steps 4,cost 1.57727,recall_0 is 0.23704,pre_0 is 0.914285714286 f1_0 is 0.37647,recall_1 is 0.97619047619 pre_1 is 0.54425, f1_1 is 0.69886
+2023-05-17 21:44:27 LR2.py[line:419] INFO: test: right is122, in pre is 225, in real is 125
+2023-05-17 21:44:27 LR2.py[line:442] INFO: train: steps 4,cost 1.57727,recall_0 is 0.20149,pre_0 is 0.964285714286 f1_0 is 0.33333,recall_1 is 0.992660550459 pre_1 is 0.55831, f1_1 is 0.71466
+2023-05-17 21:44:27 LR2.py[line:444] INFO: train_acc: 0.599629286376
+2023-05-17 21:44:27 LR2.py[line:315] INFO: 10 th epoch!
+2023-05-17 21:44:27 LR2.py[line:415] INFO: test: the accuracy is 0.594594594595
+2023-05-17 21:44:27 LR2.py[line:418] INFO: test: steps 4,cost 1.57796,recall_0 is 0.23704,pre_0 is 0.941176470588 f1_0 is 0.37870,recall_1 is 0.984126984127 pre_1 is 0.54626, f1_1 is 0.70255
+2023-05-17 21:44:27 LR2.py[line:419] INFO: test: right is123, in pre is 226, in real is 125
+2023-05-17 21:44:27 LR2.py[line:442] INFO: train: steps 4,cost 1.57796,recall_0 is 0.20149,pre_0 is 0.972972972973 f1_0 is 0.33385,recall_1 is 0.994495412844 pre_1 is 0.55876, f1_1 is 0.71551
+2023-05-17 21:44:27 LR2.py[line:444] INFO: train_acc: 0.600556070436
+2023-05-17 21:44:27 LR2.py[line:315] INFO: 11 th epoch!
+2023-05-17 21:44:27 LR2.py[line:415] INFO: test: the accuracy is 0.594594594595
+2023-05-17 21:44:27 LR2.py[line:418] INFO: test: steps 4,cost 1.57846,recall_0 is 0.23704,pre_0 is 0.941176470588 f1_0 is 0.37870,recall_1 is 0.984126984127 pre_1 is 0.54626, f1_1 is 0.70255
+2023-05-17 21:44:27 LR2.py[line:419] INFO: test: right is123, in pre is 226, in real is 125
+2023-05-17 21:44:27 LR2.py[line:442] INFO: train: steps 4,cost 1.57846,recall_0 is 0.20896,pre_0 is 0.973913043478 f1_0 is 0.34409,recall_1 is 0.994495412844 pre_1 is 0.56108, f1_1 is 0.71741
+2023-05-17 21:44:27 LR2.py[line:444] INFO: train_acc: 0.604263206673
+2023-05-17 21:44:27 LR2.py[line:315] INFO: 12 th epoch!
+2023-05-17 21:44:27 LR2.py[line:415] INFO: test: the accuracy is 0.594594594595
+2023-05-17 21:44:27 LR2.py[line:418] INFO: test: steps 4,cost 1.57875,recall_0 is 0.23704,pre_0 is 0.941176470588 f1_0 is 0.37870,recall_1 is 0.984126984127 pre_1 is 0.54626, f1_1 is 0.70255
+2023-05-17 21:44:27 LR2.py[line:419] INFO: test: right is123, in pre is 226, in real is 125
+2023-05-17 21:44:27 LR2.py[line:442] INFO: train: steps 4,cost 1.57875,recall_0 is 0.21082,pre_0 is 0.974137931034 f1_0 is 0.34663,recall_1 is 0.994495412844 pre_1 is 0.56166, f1_1 is 0.71788
+2023-05-17 21:44:27 LR2.py[line:444] INFO: train_acc: 0.605189990732
+2023-05-17 21:44:27 LR2.py[line:315] INFO: 13 th epoch!
+2023-05-17 21:44:27 LR2.py[line:415] INFO: test: the accuracy is 0.598455598456
+2023-05-17 21:44:27 LR2.py[line:418] INFO: test: steps 4,cost 1.57881,recall_0 is 0.24444,pre_0 is 0.942857142857 f1_0 is 0.38824,recall_1 is 0.984126984127 pre_1 is 0.54867, f1_1 is 0.70455
+2023-05-17 21:44:27 LR2.py[line:419] INFO: test: right is123, in pre is 225, in real is 125
+2023-05-17 21:44:27 LR2.py[line:442] INFO: train: steps 4,cost 1.57881,recall_0 is 0.20896,pre_0 is 0.973913043478 f1_0 is 0.34409,recall_1 is 0.994495412844 pre_1 is 0.56108, f1_1 is 0.71741
+2023-05-17 21:44:27 LR2.py[line:444] INFO: train_acc: 0.604263206673
+2023-05-17 21:44:27 LR2.py[line:315] INFO: 14 th epoch!
+2023-05-17 21:44:27 LR2.py[line:415] INFO: test: the accuracy is 0.610038610039
+2023-05-17 21:44:27 LR2.py[line:418] INFO: test: steps 4,cost 1.57863,recall_0 is 0.26667,pre_0 is 0.947368421053 f1_0 is 0.41618,recall_1 is 0.984126984127 pre_1 is 0.55605, f1_1 is 0.71060
+2023-05-17 21:44:27 LR2.py[line:419] INFO: test: right is123, in pre is 222, in real is 125
+2023-05-17 21:44:28 LR2.py[line:442] INFO: train: steps 4,cost 1.57863,recall_0 is 0.21269,pre_0 is 0.974358974359 f1_0 is 0.34916,recall_1 is 0.994495412844 pre_1 is 0.56224, f1_1 is 0.71836
+2023-05-17 21:44:28 LR2.py[line:444] INFO: train_acc: 0.606116774791
+2023-05-17 21:44:28 LR2.py[line:315] INFO: 15 th epoch!
+2023-05-17 21:44:28 LR2.py[line:415] INFO: test: the accuracy is 0.6138996139
+2023-05-17 21:44:28 LR2.py[line:418] INFO: test: steps 4,cost 1.57819,recall_0 is 0.27407,pre_0 is 0.948717948718 f1_0 is 0.42529,recall_1 is 0.984126984127 pre_1 is 0.55856, f1_1 is 0.71264
+2023-05-17 21:44:28 LR2.py[line:419] INFO: test: right is123, in pre is 221, in real is 125
+2023-05-17 21:44:28 LR2.py[line:442] INFO: train: steps 4,cost 1.57819,recall_0 is 0.21455,pre_0 is 0.974576271186 f1_0 is 0.35168,recall_1 is 0.994495412844 pre_1 is 0.56282, f1_1 is 0.71883
+2023-05-17 21:44:28 LR2.py[line:444] INFO: train_acc: 0.607043558851
+2023-05-17 21:44:28 LR2.py[line:315] INFO: 16 th epoch!
+2023-05-17 21:44:28 LR2.py[line:415] INFO: test: the accuracy is 0.617760617761
+2023-05-17 21:44:28 LR2.py[line:418] INFO: test: steps 4,cost 1.57747,recall_0 is 0.28148,pre_0 is 0.95 f1_0 is 0.43429,recall_1 is 0.984126984127 pre_1 is 0.56109, f1_1 is 0.71470
+2023-05-17 21:44:28 LR2.py[line:419] INFO: test: right is123, in pre is 220, in real is 125
+2023-05-17 21:44:28 LR2.py[line:442] INFO: train: steps 4,cost 1.57747,recall_0 is 0.22388,pre_0 is 0.975609756098 f1_0 is 0.36419,recall_1 is 0.994495412844 pre_1 is 0.56576, f1_1 is 0.72122
+2023-05-17 21:44:28 LR2.py[line:444] INFO: train_acc: 0.611677479147
+2023-05-17 21:44:28 LR2.py[line:315] INFO: 17 th epoch!
+2023-05-17 21:44:28 LR2.py[line:415] INFO: test: the accuracy is 0.621621621622
+2023-05-17 21:44:28 LR2.py[line:418] INFO: test: steps 4,cost 1.57645,recall_0 is 0.28889,pre_0 is 0.951219512195 f1_0 is 0.44318,recall_1 is 0.984126984127 pre_1 is 0.56364, f1_1 is 0.71676
+2023-05-17 21:44:28 LR2.py[line:419] INFO: test: right is123, in pre is 219, in real is 125
+2023-05-17 21:44:28 LR2.py[line:442] INFO: train: steps 4,cost 1.57645,recall_0 is 0.23321,pre_0 is 0.9765625 f1_0 is 0.37651,recall_1 is 0.994495412844 pre_1 is 0.56873, f1_1 is 0.72363
+2023-05-17 21:44:28 LR2.py[line:444] INFO: train_acc: 0.616311399444
+2023-05-17 21:44:28 LR2.py[line:315] INFO: 18 th epoch!
+2023-05-17 21:44:28 LR2.py[line:415] INFO: test: the accuracy is 0.625482625483
+2023-05-17 21:44:28 LR2.py[line:418] INFO: test: steps 4,cost 1.57513,recall_0 is 0.29630,pre_0 is 0.952380952381 f1_0 is 0.45198,recall_1 is 0.984126984127 pre_1 is 0.56621, f1_1 is 0.71884
+2023-05-17 21:44:28 LR2.py[line:419] INFO: test: right is123, in pre is 218, in real is 125
+2023-05-17 21:44:28 LR2.py[line:442] INFO: train: steps 4,cost 1.57513,recall_0 is 0.23694,pre_0 is 0.976923076923 f1_0 is 0.38138,recall_1 is 0.994495412844 pre_1 is 0.56993, f1_1 is 0.72460
+2023-05-17 21:44:28 LR2.py[line:444] INFO: train_acc: 0.618164967563
+2023-05-17 21:44:28 LR2.py[line:315] INFO: 19 th epoch!
+2023-05-17 21:44:28 LR2.py[line:415] INFO: test: the accuracy is 0.629343629344
+2023-05-17 21:44:28 LR2.py[line:418] INFO: test: steps 4,cost 1.57349,recall_0 is 0.30370,pre_0 is 0.953488372093 f1_0 is 0.46067,recall_1 is 0.984126984127 pre_1 is 0.56881, f1_1 is 0.72093
+2023-05-17 21:44:28 LR2.py[line:419] INFO: test: right is123, in pre is 217, in real is 125
+2023-05-17 21:44:28 LR2.py[line:442] INFO: train: steps 4,cost 1.57349,recall_0 is 0.24440,pre_0 is 0.977611940299 f1_0 is 0.39104,recall_1 is 0.994495412844 pre_1 is 0.57233, f1_1 is 0.72654
+2023-05-17 21:44:28 LR2.py[line:444] INFO: train_acc: 0.6218721038
+2023-05-17 21:44:28 LR2.py[line:315] INFO: 20 th epoch!
+2023-05-17 21:44:28 LR2.py[line:415] INFO: test: the accuracy is 0.629343629344
+2023-05-17 21:44:28 LR2.py[line:418] INFO: test: steps 4,cost 1.57152,recall_0 is 0.30370,pre_0 is 0.953488372093 f1_0 is 0.46067,recall_1 is 0.984126984127 pre_1 is 0.56881, f1_1 is 0.72093
+2023-05-17 21:44:28 LR2.py[line:419] INFO: test: right is123, in pre is 217, in real is 125
+2023-05-17 21:44:28 LR2.py[line:442] INFO: train: steps 4,cost 1.57152,recall_0 is 0.25373,pre_0 is 0.971428571429 f1_0 is 0.40237,recall_1 is 0.992660550459 pre_1 is 0.57492, f1_1 is 0.72813
+2023-05-17 21:44:28 LR2.py[line:444] INFO: train_acc: 0.625579240037
+2023-05-17 21:44:28 LR2.py[line:315] INFO: 21 th epoch!
+2023-05-17 21:44:29 LR2.py[line:415] INFO: test: the accuracy is 0.625482625483
+2023-05-17 21:44:29 LR2.py[line:418] INFO: test: steps 4,cost 1.56921,recall_0 is 0.30370,pre_0 is 0.931818181818 f1_0 is 0.45810,recall_1 is 0.97619047619 pre_1 is 0.56682, f1_1 is 0.71720
+2023-05-17 21:44:29 LR2.py[line:419] INFO: test: right is122, in pre is 216, in real is 125
+2023-05-17 21:44:29 LR2.py[line:442] INFO: train: steps 4,cost 1.56921,recall_0 is 0.26306,pre_0 is 0.972413793103 f1_0 is 0.41410,recall_1 is 0.992660550459 pre_1 is 0.57799, f1_1 is 0.73059
+2023-05-17 21:44:29 LR2.py[line:444] INFO: train_acc: 0.630213160334
+2023-05-17 21:44:29 LR2.py[line:315] INFO: 22 th epoch!
+2023-05-17 21:44:29 LR2.py[line:415] INFO: test: the accuracy is 0.625482625483
+2023-05-17 21:44:29 LR2.py[line:418] INFO: test: steps 4,cost 1.56655,recall_0 is 0.30370,pre_0 is 0.931818181818 f1_0 is 0.45810,recall_1 is 0.97619047619 pre_1 is 0.56682, f1_1 is 0.71720
+2023-05-17 21:44:29 LR2.py[line:419] INFO: test: right is122, in pre is 216, in real is 125
+2023-05-17 21:44:29 LR2.py[line:442] INFO: train: steps 4,cost 1.56655,recall_0 is 0.27425,pre_0 is 0.973509933775 f1_0 is 0.42795,recall_1 is 0.992660550459 pre_1 is 0.58172, f1_1 is 0.73356
+2023-05-17 21:44:29 LR2.py[line:444] INFO: train_acc: 0.63577386469
+2023-05-17 21:44:29 LR2.py[line:315] INFO: 23 th epoch!
+2023-05-17 21:44:29 LR2.py[line:415] INFO: test: the accuracy is 0.625482625483
+2023-05-17 21:44:29 LR2.py[line:418] INFO: test: steps 4,cost 1.56352,recall_0 is 0.30370,pre_0 is 0.931818181818 f1_0 is 0.45810,recall_1 is 0.97619047619 pre_1 is 0.56682, f1_1 is 0.71720
+2023-05-17 21:44:29 LR2.py[line:419] INFO: test: right is122, in pre is 216, in real is 125
+2023-05-17 21:44:29 LR2.py[line:442] INFO: train: steps 4,cost 1.56352,recall_0 is 0.27612,pre_0 is 0.973684210526 f1_0 is 0.43023,recall_1 is 0.992660550459 pre_1 is 0.58235, f1_1 is 0.73406
+2023-05-17 21:44:29 LR2.py[line:444] INFO: train_acc: 0.636700648749
+2023-05-17 21:44:29 LR2.py[line:315] INFO: 24 th epoch!
+2023-05-17 21:44:29 LR2.py[line:415] INFO: test: the accuracy is 0.629343629344
+2023-05-17 21:44:29 LR2.py[line:418] INFO: test: steps 4,cost 1.56012,recall_0 is 0.31111,pre_0 is 0.933333333333 f1_0 is 0.46667,recall_1 is 0.97619047619 pre_1 is 0.56944, f1_1 is 0.71930
+2023-05-17 21:44:29 LR2.py[line:419] INFO: test: right is122, in pre is 215, in real is 125
+2023-05-17 21:44:29 LR2.py[line:442] INFO: train: steps 4,cost 1.56012,recall_0 is 0.28731,pre_0 is 0.974683544304 f1_0 is 0.44380,recall_1 is 0.992660550459 pre_1 is 0.58613, f1_1 is 0.73706
+2023-05-17 21:44:29 LR2.py[line:444] INFO: train_acc: 0.642261353105
+2023-05-17 21:44:29 LR2.py[line:315] INFO: 25 th epoch!
+2023-05-17 21:44:29 LR2.py[line:415] INFO: test: the accuracy is 0.633204633205
+2023-05-17 21:44:29 LR2.py[line:418] INFO: test: steps 4,cost 1.55635,recall_0 is 0.31852,pre_0 is 0.934782608696 f1_0 is 0.47514,recall_1 is 0.97619047619 pre_1 is 0.57209, f1_1 is 0.72141
+2023-05-17 21:44:29 LR2.py[line:419] INFO: test: right is122, in pre is 214, in real is 125
+2023-05-17 21:44:29 LR2.py[line:442] INFO: train: steps 4,cost 1.55635,recall_0 is 0.29664,pre_0 is 0.975460122699 f1_0 is 0.45494,recall_1 is 0.992660550459 pre_1 is 0.58932, f1_1 is 0.73958
+2023-05-17 21:44:29 LR2.py[line:444] INFO: train_acc: 0.646895273401
+2023-05-17 21:44:29 LR2.py[line:315] INFO: 26 th epoch!
+2023-05-17 21:44:29 LR2.py[line:415] INFO: test: the accuracy is 0.637065637066
+2023-05-17 21:44:29 LR2.py[line:418] INFO: test: steps 4,cost 1.55219,recall_0 is 0.32593,pre_0 is 0.936170212766 f1_0 is 0.48352,recall_1 is 0.97619047619 pre_1 is 0.57477, f1_1 is 0.72353
+2023-05-17 21:44:29 LR2.py[line:419] INFO: test: right is122, in pre is 213, in real is 125
+2023-05-17 21:44:29 LR2.py[line:442] INFO: train: steps 4,cost 1.55219,recall_0 is 0.30597,pre_0 is 0.97619047619 f1_0 is 0.46591,recall_1 is 0.992660550459 pre_1 is 0.59255, f1_1 is 0.74211
+2023-05-17 21:44:29 LR2.py[line:444] INFO: train_acc: 0.651529193698
+2023-05-17 21:44:29 LR2.py[line:315] INFO: 27 th epoch!
+2023-05-17 21:44:30 LR2.py[line:415] INFO: test: the accuracy is 0.644787644788
+2023-05-17 21:44:30 LR2.py[line:418] INFO: test: steps 4,cost 1.54764,recall_0 is 0.34074,pre_0 is 0.938775510204 f1_0 is 0.50000,recall_1 is 0.97619047619 pre_1 is 0.58019, f1_1 is 0.72781
+2023-05-17 21:44:30 LR2.py[line:419] INFO: test: right is122, in pre is 211, in real is 125
+2023-05-17 21:44:30 LR2.py[line:442] INFO: train: steps 4,cost 1.54764,recall_0 is 0.31903,pre_0 is 0.971590909091 f1_0 is 0.48034,recall_1 is 0.990825688073 pre_1 is 0.59669, f1_1 is 0.74483
+2023-05-17 21:44:30 LR2.py[line:444] INFO: train_acc: 0.657089898054
+2023-05-17 21:44:30 LR2.py[line:315] INFO: 28 th epoch!
+2023-05-17 21:44:30 LR2.py[line:415] INFO: test: the accuracy is 0.648648648649
+2023-05-17 21:44:30 LR2.py[line:418] INFO: test: steps 4,cost 1.54271,recall_0 is 0.34815,pre_0 is 0.94 f1_0 is 0.50811,recall_1 is 0.97619047619 pre_1 is 0.58294, f1_1 is 0.72997
+2023-05-17 21:44:30 LR2.py[line:419] INFO: test: right is122, in pre is 210, in real is 125
+2023-05-17 21:44:30 LR2.py[line:442] INFO: train: steps 4,cost 1.54271,recall_0 is 0.33582,pre_0 is 0.972972972973 f1_0 is 0.49931,recall_1 is 0.990825688073 pre_1 is 0.60268, f1_1 is 0.74948
+2023-05-17 21:44:30 LR2.py[line:444] INFO: train_acc: 0.665430954588
+2023-05-17 21:44:30 LR2.py[line:315] INFO: 29 th epoch!
+2023-05-17 21:44:30 LR2.py[line:415] INFO: test: the accuracy is 0.65250965251
+2023-05-17 21:44:30 LR2.py[line:418] INFO: test: steps 4,cost 1.53738,recall_0 is 0.35556,pre_0 is 0.941176470588 f1_0 is 0.51613,recall_1 is 0.97619047619 pre_1 is 0.58571, f1_1 is 0.73214
+2023-05-17 21:44:30 LR2.py[line:419] INFO: test: right is122, in pre is 209, in real is 125
+2023-05-17 21:44:30 LR2.py[line:442] INFO: train: steps 4,cost 1.53738,recall_0 is 0.35634,pre_0 is 0.974489795918 f1_0 is 0.52186,recall_1 is 0.990825688073 pre_1 is 0.61017, f1_1 is 0.75524
+2023-05-17 21:44:30 LR2.py[line:444] INFO: train_acc: 0.67562557924
+2023-05-17 21:44:30 LR2.py[line:315] INFO: 30 th epoch!
+2023-05-17 21:44:30 LR2.py[line:415] INFO: test: the accuracy is 0.664092664093
+2023-05-17 21:44:30 LR2.py[line:418] INFO: test: steps 4,cost 1.53165,recall_0 is 0.38519,pre_0 is 0.928571428571 f1_0 is 0.54450,recall_1 is 0.968253968254 pre_1 is 0.59512, f1_1 is 0.73716
+2023-05-17 21:44:30 LR2.py[line:419] INFO: test: right is121, in pre is 204, in real is 125
+2023-05-17 21:44:30 LR2.py[line:442] INFO: train: steps 4,cost 1.53165,recall_0 is 0.37873,pre_0 is 0.975961538462 f1_0 is 0.54570,recall_1 is 0.990825688073 pre_1 is 0.61856, f1_1 is 0.76164
+2023-05-17 21:44:30 LR2.py[line:444] INFO: train_acc: 0.686746987952
+2023-05-17 21:44:30 LR2.py[line:315] INFO: 31 th epoch!
+2023-05-17 21:44:30 LR2.py[line:415] INFO: test: the accuracy is 0.675675675676
+2023-05-17 21:44:30 LR2.py[line:418] INFO: test: steps 4,cost 1.52553,recall_0 is 0.40741,pre_0 is 0.932203389831 f1_0 is 0.56701,recall_1 is 0.968253968254 pre_1 is 0.60396, f1_1 is 0.74390
+2023-05-17 21:44:30 LR2.py[line:419] INFO: test: right is121, in pre is 201, in real is 125
+2023-05-17 21:44:30 LR2.py[line:442] INFO: train: steps 4,cost 1.52553,recall_0 is 0.38806,pre_0 is 0.976525821596 f1_0 is 0.55541,recall_1 is 0.990825688073 pre_1 is 0.62212, f1_1 is 0.76433
+2023-05-17 21:44:30 LR2.py[line:444] INFO: train_acc: 0.691380908248
+2023-05-17 21:44:30 LR2.py[line:315] INFO: 32 th epoch!
+2023-05-17 21:44:30 LR2.py[line:415] INFO: test: the accuracy is 0.683397683398
+2023-05-17 21:44:30 LR2.py[line:418] INFO: test: steps 4,cost 1.51902,recall_0 is 0.42222,pre_0 is 0.934426229508 f1_0 is 0.58163,recall_1 is 0.968253968254 pre_1 is 0.61000, f1_1 is 0.74847
+2023-05-17 21:44:30 LR2.py[line:419] INFO: test: right is121, in pre is 199, in real is 125
+2023-05-17 21:44:30 LR2.py[line:442] INFO: train: steps 4,cost 1.51902,recall_0 is 0.39925,pre_0 is 0.977168949772 f1_0 is 0.56689,recall_1 is 0.990825688073 pre_1 is 0.62645, f1_1 is 0.76759
+2023-05-17 21:44:30 LR2.py[line:444] INFO: train_acc: 0.696941612604
+2023-05-17 21:44:30 LR2.py[line:315] INFO: 33 th epoch!
+2023-05-17 21:44:30 LR2.py[line:415] INFO: test: the accuracy is 0.694980694981
+2023-05-17 21:44:30 LR2.py[line:418] INFO: test: steps 4,cost 1.51211,recall_0 is 0.44444,pre_0 is 0.9375 f1_0 is 0.60302,recall_1 is 0.968253968254 pre_1 is 0.61929, f1_1 is 0.75542
+2023-05-17 21:44:30 LR2.py[line:419] INFO: test: right is121, in pre is 196, in real is 125
+2023-05-17 21:44:30 LR2.py[line:442] INFO: train: steps 4,cost 1.51211,recall_0 is 0.41978,pre_0 is 0.965665236052 f1_0 is 0.58518,recall_1 is 0.985321100917 pre_1 is 0.63325, f1_1 is 0.77100
+2023-05-17 21:44:30 LR2.py[line:444] INFO: train_acc: 0.704355885079
+2023-05-17 21:44:30 LR2.py[line:315] INFO: 34 th epoch!
+2023-05-17 21:44:31 LR2.py[line:415] INFO: test: the accuracy is 0.698841698842
+2023-05-17 21:44:31 LR2.py[line:418] INFO: test: steps 4,cost 1.50481,recall_0 is 0.45185,pre_0 is 0.938461538462 f1_0 is 0.61000,recall_1 is 0.968253968254 pre_1 is 0.62245, f1_1 is 0.75776
+2023-05-17 21:44:31 LR2.py[line:419] INFO: test: right is121, in pre is 195, in real is 125
+2023-05-17 21:44:31 LR2.py[line:442] INFO: train: steps 4,cost 1.50481,recall_0 is 0.43097,pre_0 is 0.966527196653 f1_0 is 0.59613,recall_1 is 0.985321100917 pre_1 is 0.63777, f1_1 is 0.77433
+2023-05-17 21:44:31 LR2.py[line:444] INFO: train_acc: 0.709916589435
+2023-05-17 21:44:31 LR2.py[line:315] INFO: 35 th epoch!
+2023-05-17 21:44:31 LR2.py[line:415] INFO: test: the accuracy is 0.714285714286
+2023-05-17 21:44:31 LR2.py[line:418] INFO: test: steps 4,cost 1.49713,recall_0 is 0.48148,pre_0 is 0.942028985507 f1_0 is 0.63725,recall_1 is 0.968253968254 pre_1 is 0.63542, f1_1 is 0.76730
+2023-05-17 21:44:31 LR2.py[line:419] INFO: test: right is121, in pre is 191, in real is 125
+2023-05-17 21:44:31 LR2.py[line:442] INFO: train: steps 4,cost 1.49713,recall_0 is 0.44776,pre_0 is 0.967741935484 f1_0 is 0.61224,recall_1 is 0.985321100917 pre_1 is 0.64466, f1_1 is 0.77939
+2023-05-17 21:44:31 LR2.py[line:444] INFO: train_acc: 0.718257645968
+2023-05-17 21:44:31 LR2.py[line:315] INFO: 36 th epoch!
+2023-05-17 21:44:31 LR2.py[line:415] INFO: test: the accuracy is 0.718146718147
+2023-05-17 21:44:31 LR2.py[line:418] INFO: test: steps 4,cost 1.48906,recall_0 is 0.48889,pre_0 is 0.942857142857 f1_0 is 0.64390,recall_1 is 0.968253968254 pre_1 is 0.63874, f1_1 is 0.76972
+2023-05-17 21:44:31 LR2.py[line:419] INFO: test: right is121, in pre is 190, in real is 125
+2023-05-17 21:44:31 LR2.py[line:442] INFO: train: steps 4,cost 1.48906,recall_0 is 0.46269,pre_0 is 0.96875 f1_0 is 0.62626,recall_1 is 0.985321100917 pre_1 is 0.65091, f1_1 is 0.78394
+2023-05-17 21:44:31 LR2.py[line:444] INFO: train_acc: 0.725671918443
+2023-05-17 21:44:31 LR2.py[line:315] INFO: 37 th epoch!
+2023-05-17 21:44:31 LR2.py[line:415] INFO: test: the accuracy is 0.725868725869
+2023-05-17 21:44:31 LR2.py[line:418] INFO: test: steps 4,cost 1.48062,recall_0 is 0.50370,pre_0 is 0.944444444444 f1_0 is 0.65700,recall_1 is 0.968253968254 pre_1 is 0.64550, f1_1 is 0.77460
+2023-05-17 21:44:31 LR2.py[line:419] INFO: test: right is121, in pre is 188, in real is 125
+2023-05-17 21:44:31 LR2.py[line:442] INFO: train: steps 4,cost 1.48062,recall_0 is 0.48694,pre_0 is 0.966666666667 f1_0 is 0.64764,recall_1 is 0.983486238532 pre_1 is 0.66091, f1_1 is 0.79056
+2023-05-17 21:44:31 LR2.py[line:444] INFO: train_acc: 0.736793327155
+2023-05-17 21:44:31 LR2.py[line:315] INFO: 38 th epoch!
+2023-05-17 21:44:31 LR2.py[line:415] INFO: test: the accuracy is 0.733590733591
+2023-05-17 21:44:31 LR2.py[line:418] INFO: test: steps 4,cost 1.47181,recall_0 is 0.51852,pre_0 is 0.945945945946 f1_0 is 0.66986,recall_1 is 0.968253968254 pre_1 is 0.65241, f1_1 is 0.77955
+2023-05-17 21:44:31 LR2.py[line:419] INFO: test: right is121, in pre is 186, in real is 125
+2023-05-17 21:44:31 LR2.py[line:442] INFO: train: steps 4,cost 1.47181,recall_0 is 0.49813,pre_0 is 0.963898916968 f1_0 is 0.65683,recall_1 is 0.981651376147 pre_1 is 0.66542, f1_1 is 0.79318
+2023-05-17 21:44:31 LR2.py[line:444] INFO: train_acc: 0.741427247451
+2023-05-17 21:44:31 LR2.py[line:315] INFO: 39 th epoch!
+2023-05-17 21:44:31 LR2.py[line:415] INFO: test: the accuracy is 0.741312741313
+2023-05-17 21:44:31 LR2.py[line:418] INFO: test: steps 4,cost 1.46264,recall_0 is 0.53333,pre_0 is 0.947368421053 f1_0 is 0.68246,recall_1 is 0.968253968254 pre_1 is 0.65946, f1_1 is 0.78457
+2023-05-17 21:44:31 LR2.py[line:419] INFO: test: right is121, in pre is 184, in real is 125
+2023-05-17 21:44:31 LR2.py[line:442] INFO: train: steps 4,cost 1.46264,recall_0 is 0.51306,pre_0 is 0.964912280702 f1_0 is 0.66991,recall_1 is 0.981651376147 pre_1 is 0.67211, f1_1 is 0.79791
+2023-05-17 21:44:31 LR2.py[line:444] INFO: train_acc: 0.748841519926
+2023-05-17 21:44:31 LR2.py[line:315] INFO: 40 th epoch!
+2023-05-17 21:44:32 LR2.py[line:415] INFO: test: the accuracy is 0.741312741313
+2023-05-17 21:44:32 LR2.py[line:418] INFO: test: steps 4,cost 1.45311,recall_0 is 0.53333,pre_0 is 0.947368421053 f1_0 is 0.68246,recall_1 is 0.968253968254 pre_1 is 0.65946, f1_1 is 0.78457
+2023-05-17 21:44:32 LR2.py[line:419] INFO: test: right is121, in pre is 184, in real is 125
+2023-05-17 21:44:32 LR2.py[line:442] INFO: train: steps 4,cost 1.45311,recall_0 is 0.52052,pre_0 is 0.965397923875 f1_0 is 0.67636,recall_1 is 0.981651376147 pre_1 is 0.67551, f1_1 is 0.80030
+2023-05-17 21:44:32 LR2.py[line:444] INFO: train_acc: 0.752548656163
+2023-05-17 21:44:32 LR2.py[line:315] INFO: 41 th epoch!
+2023-05-17 21:44:32 LR2.py[line:415] INFO: test: the accuracy is 0.737451737452
+2023-05-17 21:44:32 LR2.py[line:418] INFO: test: steps 4,cost 1.44324,recall_0 is 0.53333,pre_0 is 0.935064935065 f1_0 is 0.67925,recall_1 is 0.960317460317 pre_1 is 0.65761, f1_1 is 0.78065
+2023-05-17 21:44:32 LR2.py[line:419] INFO: test: right is120, in pre is 183, in real is 125
+2023-05-17 21:44:32 LR2.py[line:442] INFO: train: steps 4,cost 1.44324,recall_0 is 0.52985,pre_0 is 0.965986394558 f1_0 is 0.68434,recall_1 is 0.981651376147 pre_1 is 0.67980, f1_1 is 0.80330
+2023-05-17 21:44:32 LR2.py[line:444] INFO: train_acc: 0.75718257646
+2023-05-17 21:44:32 LR2.py[line:315] INFO: 42 th epoch!
+2023-05-17 21:44:32 LR2.py[line:415] INFO: test: the accuracy is 0.741312741313
+2023-05-17 21:44:32 LR2.py[line:418] INFO: test: steps 4,cost 1.43304,recall_0 is 0.54074,pre_0 is 0.935897435897 f1_0 is 0.68545,recall_1 is 0.960317460317 pre_1 is 0.66120, f1_1 is 0.78317
+2023-05-17 21:44:32 LR2.py[line:419] INFO: test: right is120, in pre is 182, in real is 125
+2023-05-17 21:44:32 LR2.py[line:442] INFO: train: steps 4,cost 1.43304,recall_0 is 0.53918,pre_0 is 0.966555183946 f1_0 is 0.69222,recall_1 is 0.981651376147 pre_1 is 0.68414, f1_1 is 0.80633
+2023-05-17 21:44:32 LR2.py[line:444] INFO: train_acc: 0.761816496756
+2023-05-17 21:44:32 LR2.py[line:315] INFO: 43 th epoch!
+2023-05-17 21:44:32 LR2.py[line:415] INFO: test: the accuracy is 0.745173745174
+2023-05-17 21:44:32 LR2.py[line:418] INFO: test: steps 4,cost 1.42251,recall_0 is 0.54815,pre_0 is 0.936708860759 f1_0 is 0.69159,recall_1 is 0.960317460317 pre_1 is 0.66484, f1_1 is 0.78571
+2023-05-17 21:44:32 LR2.py[line:419] INFO: test: right is120, in pre is 181, in real is 125
+2023-05-17 21:44:32 LR2.py[line:442] INFO: train: steps 4,cost 1.42251,recall_0 is 0.55784,pre_0 is 0.967637540453 f1_0 is 0.70769,recall_1 is 0.981651376147 pre_1 is 0.69301, f1_1 is 0.81245
+2023-05-17 21:44:32 LR2.py[line:444] INFO: train_acc: 0.771084337349
+2023-05-17 21:44:32 LR2.py[line:315] INFO: 44 th epoch!
+2023-05-17 21:44:32 LR2.py[line:415] INFO: test: the accuracy is 0.752895752896
+2023-05-17 21:44:32 LR2.py[line:418] INFO: test: steps 4,cost 1.41167,recall_0 is 0.56296,pre_0 is 0.938271604938 f1_0 is 0.70370,recall_1 is 0.960317460317 pre_1 is 0.67222, f1_1 is 0.79085
+2023-05-17 21:44:32 LR2.py[line:419] INFO: test: right is120, in pre is 179, in real is 125
+2023-05-17 21:44:32 LR2.py[line:442] INFO: train: steps 4,cost 1.41167,recall_0 is 0.57463,pre_0 is 0.968553459119 f1_0 is 0.72131,recall_1 is 0.981651376147 pre_1 is 0.70118, f1_1 is 0.81804
+2023-05-17 21:44:32 LR2.py[line:444] INFO: train_acc: 0.779425393883
+2023-05-17 21:44:32 LR2.py[line:315] INFO: 45 th epoch!
+2023-05-17 21:44:32 LR2.py[line:415] INFO: test: the accuracy is 0.756756756757
+2023-05-17 21:44:32 LR2.py[line:418] INFO: test: steps 4,cost 1.40054,recall_0 is 0.57037,pre_0 is 0.939024390244 f1_0 is 0.70968,recall_1 is 0.960317460317 pre_1 is 0.67598, f1_1 is 0.79344
+2023-05-17 21:44:32 LR2.py[line:419] INFO: test: right is120, in pre is 178, in real is 125
+2023-05-17 21:44:32 LR2.py[line:442] INFO: train: steps 4,cost 1.40054,recall_0 is 0.59328,pre_0 is 0.966565349544 f1_0 is 0.73526,recall_1 is 0.979816513761 pre_1 is 0.71011, f1_1 is 0.82344
+2023-05-17 21:44:32 LR2.py[line:444] INFO: train_acc: 0.787766450417
+2023-05-17 21:44:32 LR2.py[line:315] INFO: 46 th epoch!
+2023-05-17 21:44:32 LR2.py[line:415] INFO: test: the accuracy is 0.760617760618
+2023-05-17 21:44:32 LR2.py[line:418] INFO: test: steps 4,cost 1.38911,recall_0 is 0.58519,pre_0 is 0.929411764706 f1_0 is 0.71818,recall_1 is 0.952380952381 pre_1 is 0.68182, f1_1 is 0.79470
+2023-05-17 21:44:32 LR2.py[line:419] INFO: test: right is119, in pre is 175, in real is 125
+2023-05-17 21:44:33 LR2.py[line:442] INFO: train: steps 4,cost 1.38911,recall_0 is 0.60075,pre_0 is 0.964071856287 f1_0 is 0.74023,recall_1 is 0.977981651376 pre_1 is 0.71352, f1_1 is 0.82508
+2023-05-17 21:44:33 LR2.py[line:444] INFO: train_acc: 0.790546802595
+2023-05-17 21:44:33 LR2.py[line:315] INFO: 47 th epoch!
+2023-05-17 21:44:33 LR2.py[line:415] INFO: test: the accuracy is 0.764478764479
+2023-05-17 21:44:33 LR2.py[line:418] INFO: test: steps 4,cost 1.37742,recall_0 is 0.59259,pre_0 is 0.93023255814 f1_0 is 0.72398,recall_1 is 0.952380952381 pre_1 is 0.68571, f1_1 is 0.79734
+2023-05-17 21:44:33 LR2.py[line:419] INFO: test: right is119, in pre is 174, in real is 125
+2023-05-17 21:44:33 LR2.py[line:442] INFO: train: steps 4,cost 1.37742,recall_0 is 0.60448,pre_0 is 0.964285714286 f1_0 is 0.74312,recall_1 is 0.977981651376 pre_1 is 0.71544, f1_1 is 0.82636
+2023-05-17 21:44:33 LR2.py[line:444] INFO: train_acc: 0.792400370714
+2023-05-17 21:44:33 LR2.py[line:315] INFO: 48 th epoch!
+2023-05-17 21:44:33 LR2.py[line:415] INFO: test: the accuracy is 0.76833976834
+2023-05-17 21:44:33 LR2.py[line:418] INFO: test: steps 4,cost 1.36546,recall_0 is 0.60000,pre_0 is 0.931034482759 f1_0 is 0.72973,recall_1 is 0.952380952381 pre_1 is 0.68966, f1_1 is 0.80000
+2023-05-17 21:44:33 LR2.py[line:419] INFO: test: right is119, in pre is 173, in real is 125
+2023-05-17 21:44:33 LR2.py[line:442] INFO: train: steps 4,cost 1.36546,recall_0 is 0.62873,pre_0 is 0.962857142857 f1_0 is 0.76072,recall_1 is 0.976146788991 pre_1 is 0.72777, f1_1 is 0.83386
+2023-05-17 21:44:33 LR2.py[line:444] INFO: train_acc: 0.803521779425
+2023-05-17 21:44:33 LR2.py[line:315] INFO: 49 th epoch!
+2023-05-17 21:44:33 LR2.py[line:415] INFO: test: the accuracy is 0.787644787645
+2023-05-17 21:44:33 LR2.py[line:418] INFO: test: steps 4,cost 1.35326,recall_0 is 0.63704,pre_0 is 0.934782608696 f1_0 is 0.75771,recall_1 is 0.952380952381 pre_1 is 0.71006, f1_1 is 0.81356
+2023-05-17 21:44:33 LR2.py[line:419] INFO: test: right is119, in pre is 168, in real is 125
+2023-05-17 21:44:33 LR2.py[line:442] INFO: train: steps 4,cost 1.35326,recall_0 is 0.63433,pre_0 is 0.963172804533 f1_0 is 0.76490,recall_1 is 0.976146788991 pre_1 is 0.73077, f1_1 is 0.83582
+2023-05-17 21:44:33 LR2.py[line:444] INFO: train_acc: 0.806302131603
+2023-05-17 21:44:33 LR2.py[line:315] INFO: 50 th epoch!
+2023-05-17 21:44:33 LR2.py[line:415] INFO: test: the accuracy is 0.783783783784
+2023-05-17 21:44:33 LR2.py[line:418] INFO: test: steps 4,cost 1.34083,recall_0 is 0.63704,pre_0 is 0.924731182796 f1_0 is 0.75439,recall_1 is 0.944444444444 pre_1 is 0.70833, f1_1 is 0.80952
+2023-05-17 21:44:33 LR2.py[line:419] INFO: test: right is118, in pre is 167, in real is 125
+2023-05-17 21:44:33 LR2.py[line:442] INFO: train: steps 4,cost 1.34083,recall_0 is 0.63806,pre_0 is 0.960674157303 f1_0 is 0.76682,recall_1 is 0.974311926606 pre_1 is 0.73241, f1_1 is 0.83622
+2023-05-17 21:44:33 LR2.py[line:444] INFO: train_acc: 0.807228915663
+2023-05-17 21:44:33 LR2.py[line:315] INFO: 51 th epoch!
+2023-05-17 21:44:33 LR2.py[line:415] INFO: test: the accuracy is 0.783783783784
+2023-05-17 21:44:33 LR2.py[line:418] INFO: test: steps 4,cost 1.32818,recall_0 is 0.63704,pre_0 is 0.924731182796 f1_0 is 0.75439,recall_1 is 0.944444444444 pre_1 is 0.70833, f1_1 is 0.80952
+2023-05-17 21:44:33 LR2.py[line:419] INFO: test: right is118, in pre is 167, in real is 125
+2023-05-17 21:44:33 LR2.py[line:442] INFO: train: steps 4,cost 1.32818,recall_0 is 0.64179,pre_0 is 0.960893854749 f1_0 is 0.76957,recall_1 is 0.974311926606 pre_1 is 0.73444, f1_1 is 0.83754
+2023-05-17 21:44:33 LR2.py[line:444] INFO: train_acc: 0.809082483781
+2023-05-17 21:44:33 LR2.py[line:315] INFO: 52 th epoch!
+2023-05-17 21:44:33 LR2.py[line:415] INFO: test: the accuracy is 0.783783783784
+2023-05-17 21:44:33 LR2.py[line:418] INFO: test: steps 4,cost 1.31534,recall_0 is 0.65185,pre_0 is 0.907216494845 f1_0 is 0.75862,recall_1 is 0.928571428571 pre_1 is 0.71341, f1_1 is 0.80690
+2023-05-17 21:44:33 LR2.py[line:419] INFO: test: right is116, in pre is 163, in real is 125
+2023-05-17 21:44:33 LR2.py[line:442] INFO: train: steps 4,cost 1.31534,recall_0 is 0.64925,pre_0 is 0.95867768595 f1_0 is 0.77419,recall_1 is 0.97247706422 pre_1 is 0.73816, f1_1 is 0.83927
+2023-05-17 21:44:33 LR2.py[line:444] INFO: train_acc: 0.811862835959
+2023-05-17 21:44:33 LR2.py[line:315] INFO: 53 th epoch!
+2023-05-17 21:44:34 LR2.py[line:415] INFO: test: the accuracy is 0.795366795367
+2023-05-17 21:44:34 LR2.py[line:418] INFO: test: steps 4,cost 1.30231,recall_0 is 0.67407,pre_0 is 0.91 f1_0 is 0.77447,recall_1 is 0.928571428571 pre_1 is 0.72671, f1_1 is 0.81533
+2023-05-17 21:44:34 LR2.py[line:419] INFO: test: right is116, in pre is 160, in real is 125
+2023-05-17 21:44:34 LR2.py[line:442] INFO: train: steps 4,cost 1.30231,recall_0 is 0.66045,pre_0 is 0.959349593496 f1_0 is 0.78232,recall_1 is 0.97247706422 pre_1 is 0.74438, f1_1 is 0.84328
+2023-05-17 21:44:34 LR2.py[line:444] INFO: train_acc: 0.817423540315
+2023-05-17 21:44:34 LR2.py[line:315] INFO: 54 th epoch!
+2023-05-17 21:44:34 LR2.py[line:415] INFO: test: the accuracy is 0.799227799228
+2023-05-17 21:44:34 LR2.py[line:418] INFO: test: steps 4,cost 1.28910,recall_0 is 0.68148,pre_0 is 0.910891089109 f1_0 is 0.77966,recall_1 is 0.928571428571 pre_1 is 0.73125, f1_1 is 0.81818
+2023-05-17 21:44:34 LR2.py[line:419] INFO: test: right is116, in pre is 159, in real is 125
+2023-05-17 21:44:34 LR2.py[line:442] INFO: train: steps 4,cost 1.28910,recall_0 is 0.67724,pre_0 is 0.957783641161 f1_0 is 0.79344,recall_1 is 0.970642201835 pre_1 is 0.75356, f1_1 is 0.84844
+2023-05-17 21:44:34 LR2.py[line:444] INFO: train_acc: 0.82483781279
+2023-05-17 21:44:34 LR2.py[line:315] INFO: 55 th epoch!
+2023-05-17 21:44:34 LR2.py[line:415] INFO: test: the accuracy is 0.80694980695
+2023-05-17 21:44:34 LR2.py[line:418] INFO: test: steps 4,cost 1.27575,recall_0 is 0.69630,pre_0 is 0.912621359223 f1_0 is 0.78992,recall_1 is 0.928571428571 pre_1 is 0.74051, f1_1 is 0.82394
+2023-05-17 21:44:34 LR2.py[line:419] INFO: test: right is116, in pre is 157, in real is 125
+2023-05-17 21:44:34 LR2.py[line:442] INFO: train: steps 4,cost 1.27575,recall_0 is 0.68284,pre_0 is 0.958115183246 f1_0 is 0.79739,recall_1 is 0.970642201835 pre_1 is 0.75680, f1_1 is 0.85048
+2023-05-17 21:44:34 LR2.py[line:444] INFO: train_acc: 0.827618164968
+2023-05-17 21:44:34 LR2.py[line:315] INFO: 56 th epoch!
+2023-05-17 21:44:34 LR2.py[line:415] INFO: test: the accuracy is 0.803088803089
+2023-05-17 21:44:34 LR2.py[line:418] INFO: test: steps 4,cost 1.26226,recall_0 is 0.69630,pre_0 is 0.903846153846 f1_0 is 0.78661,recall_1 is 0.920634920635 pre_1 is 0.73885, f1_1 is 0.81979
+2023-05-17 21:44:34 LR2.py[line:419] INFO: test: right is115, in pre is 156, in real is 125
+2023-05-17 21:44:34 LR2.py[line:442] INFO: train: steps 4,cost 1.26226,recall_0 is 0.69216,pre_0 is 0.953727506427 f1_0 is 0.80216,recall_1 is 0.966972477064 pre_1 is 0.76156, f1_1 is 0.85206
+2023-05-17 21:44:34 LR2.py[line:444] INFO: train_acc: 0.830398517146
+2023-05-17 21:44:34 LR2.py[line:315] INFO: 57 th epoch!
+2023-05-17 21:44:34 LR2.py[line:415] INFO: test: the accuracy is 0.803088803089
+2023-05-17 21:44:34 LR2.py[line:418] INFO: test: steps 4,cost 1.24864,recall_0 is 0.70370,pre_0 is 0.896226415094 f1_0 is 0.78838,recall_1 is 0.912698412698 pre_1 is 0.74194, f1_1 is 0.81851
+2023-05-17 21:44:34 LR2.py[line:419] INFO: test: right is114, in pre is 154, in real is 125
+2023-05-17 21:44:34 LR2.py[line:442] INFO: train: steps 4,cost 1.24864,recall_0 is 0.69590,pre_0 is 0.953964194373 f1_0 is 0.80475,recall_1 is 0.966972477064 pre_1 is 0.76377, f1_1 is 0.85344
+2023-05-17 21:44:34 LR2.py[line:444] INFO: train_acc: 0.832252085264
+2023-05-17 21:44:34 LR2.py[line:315] INFO: 58 th epoch!
+2023-05-17 21:44:34 LR2.py[line:415] INFO: test: the accuracy is 0.810810810811
+2023-05-17 21:44:34 LR2.py[line:418] INFO: test: steps 4,cost 1.23492,recall_0 is 0.71852,pre_0 is 0.898148148148 f1_0 is 0.79835,recall_1 is 0.912698412698 pre_1 is 0.75163, f1_1 is 0.82437
+2023-05-17 21:44:34 LR2.py[line:419] INFO: test: right is114, in pre is 152, in real is 125
+2023-05-17 21:44:34 LR2.py[line:442] INFO: train: steps 4,cost 1.23492,recall_0 is 0.70709,pre_0 is 0.954659949622 f1_0 is 0.81243,recall_1 is 0.966972477064 pre_1 is 0.77047, f1_1 is 0.85761
+2023-05-17 21:44:34 LR2.py[line:444] INFO: train_acc: 0.83781278962
+2023-05-17 21:44:34 LR2.py[line:315] INFO: 59 th epoch!
+2023-05-17 21:44:34 LR2.py[line:415] INFO: test: the accuracy is 0.810810810811
+2023-05-17 21:44:34 LR2.py[line:418] INFO: test: steps 4,cost 1.22110,recall_0 is 0.72593,pre_0 is 0.890909090909 f1_0 is 0.80000,recall_1 is 0.904761904762 pre_1 is 0.75497, f1_1 is 0.82310
+2023-05-17 21:44:34 LR2.py[line:419] INFO: test: right is113, in pre is 150, in real is 125
+2023-05-17 21:44:34 LR2.py[line:442] INFO: train: steps 4,cost 1.22110,recall_0 is 0.71269,pre_0 is 0.955 f1_0 is 0.81624,recall_1 is 0.966972477064 pre_1 is 0.77386, f1_1 is 0.85971
+2023-05-17 21:44:34 LR2.py[line:444] INFO: train_acc: 0.840593141798
+2023-05-17 21:44:35 LR2.py[line:315] INFO: 60 th epoch!
+2023-05-17 21:44:35 LR2.py[line:415] INFO: test: the accuracy is 0.814671814672
+2023-05-17 21:44:35 LR2.py[line:418] INFO: test: steps 4,cost 1.20721,recall_0 is 0.73333,pre_0 is 0.891891891892 f1_0 is 0.80488,recall_1 is 0.904761904762 pre_1 is 0.76000, f1_1 is 0.82609
+2023-05-17 21:44:35 LR2.py[line:419] INFO: test: right is113, in pre is 149, in real is 125
+2023-05-17 21:44:35 LR2.py[line:442] INFO: train: steps 4,cost 1.20721,recall_0 is 0.71642,pre_0 is 0.955223880597 f1_0 is 0.81876,recall_1 is 0.966972477064 pre_1 is 0.77614, f1_1 is 0.86111
+2023-05-17 21:44:35 LR2.py[line:444] INFO: train_acc: 0.842446709917
+2023-05-17 21:44:35 LR2.py[line:315] INFO: 61 th epoch!
+2023-05-17 21:44:35 LR2.py[line:415] INFO: test: the accuracy is 0.818532818533
+2023-05-17 21:44:35 LR2.py[line:418] INFO: test: steps 4,cost 1.19326,recall_0 is 0.74074,pre_0 is 0.892857142857 f1_0 is 0.80972,recall_1 is 0.904761904762 pre_1 is 0.76510, f1_1 is 0.82909
+2023-05-17 21:44:35 LR2.py[line:419] INFO: test: right is113, in pre is 148, in real is 125
+2023-05-17 21:44:35 LR2.py[line:442] INFO: train: steps 4,cost 1.19326,recall_0 is 0.71828,pre_0 is 0.955334987593 f1_0 is 0.82002,recall_1 is 0.966972477064 pre_1 is 0.77729, f1_1 is 0.86182
+2023-05-17 21:44:35 LR2.py[line:444] INFO: train_acc: 0.843373493976
+2023-05-17 21:44:35 LR2.py[line:315] INFO: 62 th epoch!
+2023-05-17 21:44:35 LR2.py[line:415] INFO: test: the accuracy is 0.822393822394
+2023-05-17 21:44:35 LR2.py[line:418] INFO: test: steps 4,cost 1.17926,recall_0 is 0.74815,pre_0 is 0.893805309735 f1_0 is 0.81452,recall_1 is 0.904761904762 pre_1 is 0.77027, f1_1 is 0.83212
+2023-05-17 21:44:35 LR2.py[line:419] INFO: test: right is113, in pre is 147, in real is 125
+2023-05-17 21:44:35 LR2.py[line:442] INFO: train: steps 4,cost 1.17926,recall_0 is 0.73134,pre_0 is 0.956097560976 f1_0 is 0.82875,recall_1 is 0.966972477064 pre_1 is 0.78539, f1_1 is 0.86678
+2023-05-17 21:44:35 LR2.py[line:444] INFO: train_acc: 0.849860982391
+2023-05-17 21:44:35 LR2.py[line:315] INFO: 63 th epoch!
+2023-05-17 21:44:35 LR2.py[line:415] INFO: test: the accuracy is 0.826254826255
+2023-05-17 21:44:35 LR2.py[line:418] INFO: test: steps 4,cost 1.16523,recall_0 is 0.75556,pre_0 is 0.894736842105 f1_0 is 0.81928,recall_1 is 0.904761904762 pre_1 is 0.77551, f1_1 is 0.83516
+2023-05-17 21:44:35 LR2.py[line:419] INFO: test: right is113, in pre is 146, in real is 125
+2023-05-17 21:44:35 LR2.py[line:442] INFO: train: steps 4,cost 1.16523,recall_0 is 0.73507,pre_0 is 0.949397590361 f1_0 is 0.82860,recall_1 is 0.961467889908 pre_1 is 0.78679, f1_1 is 0.86540
+2023-05-17 21:44:35 LR2.py[line:444] INFO: train_acc: 0.848934198332
+2023-05-17 21:44:35 LR2.py[line:315] INFO: 64 th epoch!
+2023-05-17 21:44:35 LR2.py[line:415] INFO: test: the accuracy is 0.830115830116
+2023-05-17 21:44:35 LR2.py[line:418] INFO: test: steps 4,cost 1.15118,recall_0 is 0.77037,pre_0 is 0.888888888889 f1_0 is 0.82540,recall_1 is 0.896825396825 pre_1 is 0.78472, f1_1 is 0.83704
+2023-05-17 21:44:35 LR2.py[line:419] INFO: test: right is112, in pre is 143, in real is 125
+2023-05-17 21:44:35 LR2.py[line:442] INFO: train: steps 4,cost 1.15118,recall_0 is 0.74067,pre_0 is 0.94976076555 f1_0 is 0.83229,recall_1 is 0.961467889908 pre_1 is 0.79035, f1_1 is 0.86755
+2023-05-17 21:44:35 LR2.py[line:444] INFO: train_acc: 0.85171455051
+2023-05-17 21:44:35 LR2.py[line:315] INFO: 65 th epoch!
+2023-05-17 21:44:35 LR2.py[line:415] INFO: test: the accuracy is 0.833976833977
+2023-05-17 21:44:35 LR2.py[line:418] INFO: test: steps 4,cost 1.13713,recall_0 is 0.77778,pre_0 is 0.889830508475 f1_0 is 0.83004,recall_1 is 0.896825396825 pre_1 is 0.79021, f1_1 is 0.84015
+2023-05-17 21:44:35 LR2.py[line:419] INFO: test: right is112, in pre is 142, in real is 125
+2023-05-17 21:44:35 LR2.py[line:442] INFO: train: steps 4,cost 1.13713,recall_0 is 0.74440,pre_0 is 0.947743467933 f1_0 is 0.83386,recall_1 is 0.959633027523 pre_1 is 0.79242, f1_1 is 0.86805
+2023-05-17 21:44:35 LR2.py[line:444] INFO: train_acc: 0.852641334569
+2023-05-17 21:44:35 LR2.py[line:315] INFO: 66 th epoch!
+2023-05-17 21:44:36 LR2.py[line:415] INFO: test: the accuracy is 0.833976833977
+2023-05-17 21:44:36 LR2.py[line:418] INFO: test: steps 4,cost 1.12308,recall_0 is 0.77778,pre_0 is 0.889830508475 f1_0 is 0.83004,recall_1 is 0.896825396825 pre_1 is 0.79021, f1_1 is 0.84015
+2023-05-17 21:44:36 LR2.py[line:419] INFO: test: right is112, in pre is 142, in real is 125
+2023-05-17 21:44:36 LR2.py[line:442] INFO: train: steps 4,cost 1.12308,recall_0 is 0.75373,pre_0 is 0.943925233645 f1_0 is 0.83817,recall_1 is 0.955963302752 pre_1 is 0.79786, f1_1 is 0.86978
+2023-05-17 21:44:36 LR2.py[line:444] INFO: train_acc: 0.855421686747
+2023-05-17 21:44:36 LR2.py[line:315] INFO: 67 th epoch!
+2023-05-17 21:44:36 LR2.py[line:415] INFO: test: the accuracy is 0.837837837838
+2023-05-17 21:44:36 LR2.py[line:418] INFO: test: steps 4,cost 1.10906,recall_0 is 0.78519,pre_0 is 0.890756302521 f1_0 is 0.83465,recall_1 is 0.896825396825 pre_1 is 0.79577, f1_1 is 0.84328
+2023-05-17 21:44:36 LR2.py[line:419] INFO: test: right is112, in pre is 141, in real is 125
+2023-05-17 21:44:36 LR2.py[line:442] INFO: train: steps 4,cost 1.10906,recall_0 is 0.75373,pre_0 is 0.941724941725 f1_0 is 0.83731,recall_1 is 0.954128440367 pre_1 is 0.79755, f1_1 is 0.86884
+2023-05-17 21:44:36 LR2.py[line:444] INFO: train_acc: 0.854494902688
+2023-05-17 21:44:36 LR2.py[line:315] INFO: 68 th epoch!
+2023-05-17 21:44:36 LR2.py[line:415] INFO: test: the accuracy is 0.837837837838
+2023-05-17 21:44:36 LR2.py[line:418] INFO: test: steps 4,cost 1.09507,recall_0 is 0.78519,pre_0 is 0.890756302521 f1_0 is 0.83465,recall_1 is 0.896825396825 pre_1 is 0.79577, f1_1 is 0.84328
+2023-05-17 21:44:36 LR2.py[line:419] INFO: test: right is112, in pre is 141, in real is 125
+2023-05-17 21:44:36 LR2.py[line:442] INFO: train: steps 4,cost 1.09507,recall_0 is 0.76306,pre_0 is 0.942396313364 f1_0 is 0.84330,recall_1 is 0.954128440367 pre_1 is 0.80371, f1_1 is 0.87248
+2023-05-17 21:44:36 LR2.py[line:444] INFO: train_acc: 0.859128822984
+2023-05-17 21:44:36 LR2.py[line:315] INFO: 69 th epoch!
+2023-05-17 21:44:36 LR2.py[line:415] INFO: test: the accuracy is 0.841698841699
+2023-05-17 21:44:36 LR2.py[line:418] INFO: test: steps 4,cost 1.08113,recall_0 is 0.79259,pre_0 is 0.891666666667 f1_0 is 0.83922,recall_1 is 0.896825396825 pre_1 is 0.80142, f1_1 is 0.84644
+2023-05-17 21:44:36 LR2.py[line:419] INFO: test: right is112, in pre is 140, in real is 125
+2023-05-17 21:44:36 LR2.py[line:442] INFO: train: steps 4,cost 1.08113,recall_0 is 0.76493,pre_0 is 0.942528735632 f1_0 is 0.84449,recall_1 is 0.954128440367 pre_1 is 0.80495, f1_1 is 0.87322
+2023-05-17 21:44:36 LR2.py[line:444] INFO: train_acc: 0.860055607044
+2023-05-17 21:44:36 LR2.py[line:315] INFO: 70 th epoch!
+2023-05-17 21:44:36 LR2.py[line:415] INFO: test: the accuracy is 0.841698841699
+2023-05-17 21:44:36 LR2.py[line:418] INFO: test: steps 4,cost 1.06725,recall_0 is 0.79259,pre_0 is 0.891666666667 f1_0 is 0.83922,recall_1 is 0.896825396825 pre_1 is 0.80142, f1_1 is 0.84644
+2023-05-17 21:44:36 LR2.py[line:419] INFO: test: right is112, in pre is 140, in real is 125
+2023-05-17 21:44:36 LR2.py[line:442] INFO: train: steps 4,cost 1.06725,recall_0 is 0.77052,pre_0 is 0.938636363636 f1_0 is 0.84631,recall_1 is 0.950458715596 pre_1 is 0.80811, f1_1 is 0.87352
+2023-05-17 21:44:36 LR2.py[line:444] INFO: train_acc: 0.860982391103
+2023-05-17 21:44:36 LR2.py[line:315] INFO: 71 th epoch!
+2023-05-17 21:44:36 LR2.py[line:415] INFO: test: the accuracy is 0.841698841699
+2023-05-17 21:44:36 LR2.py[line:418] INFO: test: steps 4,cost 1.05343,recall_0 is 0.79259,pre_0 is 0.891666666667 f1_0 is 0.83922,recall_1 is 0.896825396825 pre_1 is 0.80142, f1_1 is 0.84644
+2023-05-17 21:44:36 LR2.py[line:419] INFO: test: right is112, in pre is 140, in real is 125
+2023-05-17 21:44:36 LR2.py[line:442] INFO: train: steps 4,cost 1.05343,recall_0 is 0.77612,pre_0 is 0.936936936937 f1_0 is 0.84898,recall_1 is 0.948623853211 pre_1 is 0.81162, f1_1 is 0.87479
+2023-05-17 21:44:36 LR2.py[line:444] INFO: train_acc: 0.862835959222
+2023-05-17 21:44:36 LR2.py[line:315] INFO: 72 th epoch!
+2023-05-17 21:44:36 LR2.py[line:415] INFO: test: the accuracy is 0.84555984556
+2023-05-17 21:44:36 LR2.py[line:418] INFO: test: steps 4,cost 1.03969,recall_0 is 0.80000,pre_0 is 0.892561983471 f1_0 is 0.84375,recall_1 is 0.896825396825 pre_1 is 0.80714, f1_1 is 0.84962
+2023-05-17 21:44:36 LR2.py[line:419] INFO: test: right is112, in pre is 139, in real is 125
+2023-05-17 21:44:37 LR2.py[line:442] INFO: train: steps 4,cost 1.03969,recall_0 is 0.77985,pre_0 is 0.935123042506 f1_0 is 0.85046,recall_1 is 0.946788990826 pre_1 is 0.81388, f1_1 is 0.87532
+2023-05-17 21:44:37 LR2.py[line:444] INFO: train_acc: 0.863762743281
+2023-05-17 21:44:37 LR2.py[line:315] INFO: 73 th epoch!
+2023-05-17 21:44:37 LR2.py[line:415] INFO: test: the accuracy is 0.84555984556
+2023-05-17 21:44:37 LR2.py[line:418] INFO: test: steps 4,cost 1.02604,recall_0 is 0.80000,pre_0 is 0.892561983471 f1_0 is 0.84375,recall_1 is 0.896825396825 pre_1 is 0.80714, f1_1 is 0.84962
+2023-05-17 21:44:37 LR2.py[line:419] INFO: test: right is112, in pre is 139, in real is 125
+2023-05-17 21:44:37 LR2.py[line:442] INFO: train: steps 4,cost 1.02604,recall_0 is 0.78358,pre_0 is 0.931263858093 f1_0 is 0.85106,recall_1 is 0.943119266055 pre_1 is 0.81587, f1_1 is 0.87489
+2023-05-17 21:44:37 LR2.py[line:444] INFO: train_acc: 0.863762743281
+2023-05-17 21:44:37 LR2.py[line:315] INFO: 74 th epoch!
+2023-05-17 21:44:37 LR2.py[line:415] INFO: test: the accuracy is 0.84555984556
+2023-05-17 21:44:37 LR2.py[line:418] INFO: test: steps 4,cost 1.01249,recall_0 is 0.80000,pre_0 is 0.892561983471 f1_0 is 0.84375,recall_1 is 0.896825396825 pre_1 is 0.80714, f1_1 is 0.84962
+2023-05-17 21:44:37 LR2.py[line:419] INFO: test: right is112, in pre is 139, in real is 125
+2023-05-17 21:44:37 LR2.py[line:442] INFO: train: steps 4,cost 1.01249,recall_0 is 0.78731,pre_0 is 0.931567328918 f1_0 is 0.85339,recall_1 is 0.943119266055 pre_1 is 0.81847, f1_1 is 0.87639
+2023-05-17 21:44:37 LR2.py[line:444] INFO: train_acc: 0.865616311399
+2023-05-17 21:44:37 LR2.py[line:315] INFO: 75 th epoch!
+2023-05-17 21:44:37 LR2.py[line:415] INFO: test: the accuracy is 0.84555984556
+2023-05-17 21:44:37 LR2.py[line:418] INFO: test: steps 4,cost 0.99904,recall_0 is 0.80000,pre_0 is 0.892561983471 f1_0 is 0.84375,recall_1 is 0.896825396825 pre_1 is 0.80714, f1_1 is 0.84962
+2023-05-17 21:44:37 LR2.py[line:419] INFO: test: right is112, in pre is 139, in real is 125
+2023-05-17 21:44:37 LR2.py[line:442] INFO: train: steps 4,cost 0.99904,recall_0 is 0.78731,pre_0 is 0.931567328918 f1_0 is 0.85339,recall_1 is 0.943119266055 pre_1 is 0.81847, f1_1 is 0.87639
+2023-05-17 21:44:37 LR2.py[line:444] INFO: train_acc: 0.865616311399
+2023-05-17 21:44:37 LR2.py[line:315] INFO: 76 th epoch!
+2023-05-17 21:44:37 LR2.py[line:415] INFO: test: the accuracy is 0.84555984556
+2023-05-17 21:44:37 LR2.py[line:418] INFO: test: steps 4,cost 0.98570,recall_0 is 0.80000,pre_0 is 0.892561983471 f1_0 is 0.84375,recall_1 is 0.896825396825 pre_1 is 0.80714, f1_1 is 0.84962
+2023-05-17 21:44:37 LR2.py[line:419] INFO: test: right is112, in pre is 139, in real is 125
+2023-05-17 21:44:37 LR2.py[line:442] INFO: train: steps 4,cost 0.98570,recall_0 is 0.79104,pre_0 is 0.931868131868 f1_0 is 0.85570,recall_1 is 0.943119266055 pre_1 is 0.82109, f1_1 is 0.87788
+2023-05-17 21:44:37 LR2.py[line:444] INFO: train_acc: 0.867469879518
+2023-05-17 21:44:37 LR2.py[line:315] INFO: 77 th epoch!
+2023-05-17 21:44:37 LR2.py[line:415] INFO: test: the accuracy is 0.84555984556
+2023-05-17 21:44:37 LR2.py[line:418] INFO: test: steps 4,cost 0.97249,recall_0 is 0.80000,pre_0 is 0.892561983471 f1_0 is 0.84375,recall_1 is 0.896825396825 pre_1 is 0.80714, f1_1 is 0.84962
+2023-05-17 21:44:37 LR2.py[line:419] INFO: test: right is112, in pre is 139, in real is 125
+2023-05-17 21:44:37 LR2.py[line:442] INFO: train: steps 4,cost 0.97249,recall_0 is 0.79478,pre_0 is 0.930131004367 f1_0 is 0.85714,recall_1 is 0.94128440367 pre_1 is 0.82343, f1_1 is 0.87842
+2023-05-17 21:44:37 LR2.py[line:444] INFO: train_acc: 0.868396663577
+2023-05-17 21:44:37 LR2.py[line:315] INFO: 78 th epoch!
+2023-05-17 21:44:37 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:37 LR2.py[line:418] INFO: test: steps 4,cost 0.95940,recall_0 is 0.80741,pre_0 is 0.893442622951 f1_0 is 0.84825,recall_1 is 0.896825396825 pre_1 is 0.81295, f1_1 is 0.85283
+2023-05-17 21:44:37 LR2.py[line:419] INFO: test: right is112, in pre is 138, in real is 125
+2023-05-17 21:44:37 LR2.py[line:442] INFO: train: steps 4,cost 0.95940,recall_0 is 0.79664,pre_0 is 0.930283224401 f1_0 is 0.85829,recall_1 is 0.94128440367 pre_1 is 0.82476, f1_1 is 0.87918
+2023-05-17 21:44:37 LR2.py[line:444] INFO: train_acc: 0.869323447637
+2023-05-17 21:44:37 LR2.py[line:315] INFO: 79 th epoch!
+2023-05-17 21:44:38 LR2.py[line:415] INFO: test: the accuracy is 0.853281853282
+2023-05-17 21:44:38 LR2.py[line:418] INFO: test: steps 4,cost 0.94644,recall_0 is 0.81481,pre_0 is 0.894308943089 f1_0 is 0.85271,recall_1 is 0.896825396825 pre_1 is 0.81884, f1_1 is 0.85606
+2023-05-17 21:44:38 LR2.py[line:419] INFO: test: right is112, in pre is 137, in real is 125
+2023-05-17 21:44:38 LR2.py[line:442] INFO: train: steps 4,cost 0.94644,recall_0 is 0.80224,pre_0 is 0.928725701944 f1_0 is 0.86086,recall_1 is 0.939449541284 pre_1 is 0.82848, f1_1 is 0.88048
+2023-05-17 21:44:38 LR2.py[line:444] INFO: train_acc: 0.871177015755
+2023-05-17 21:44:38 LR2.py[line:315] INFO: 80 th epoch!
+2023-05-17 21:44:38 LR2.py[line:415] INFO: test: the accuracy is 0.853281853282
+2023-05-17 21:44:38 LR2.py[line:418] INFO: test: steps 4,cost 0.93363,recall_0 is 0.81481,pre_0 is 0.894308943089 f1_0 is 0.85271,recall_1 is 0.896825396825 pre_1 is 0.81884, f1_1 is 0.85606
+2023-05-17 21:44:38 LR2.py[line:419] INFO: test: right is112, in pre is 137, in real is 125
+2023-05-17 21:44:38 LR2.py[line:442] INFO: train: steps 4,cost 0.93363,recall_0 is 0.80224,pre_0 is 0.926724137931 f1_0 is 0.86000,recall_1 is 0.937614678899 pre_1 is 0.82820, f1_1 is 0.87952
+2023-05-17 21:44:38 LR2.py[line:444] INFO: train_acc: 0.870250231696
+2023-05-17 21:44:38 LR2.py[line:315] INFO: 81 th epoch!
+2023-05-17 21:44:38 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:38 LR2.py[line:418] INFO: test: steps 4,cost 0.92096,recall_0 is 0.81481,pre_0 is 0.887096774194 f1_0 is 0.84942,recall_1 is 0.888888888889 pre_1 is 0.81752, f1_1 is 0.85171
+2023-05-17 21:44:38 LR2.py[line:419] INFO: test: right is111, in pre is 136, in real is 125
+2023-05-17 21:44:38 LR2.py[line:442] INFO: train: steps 4,cost 0.92096,recall_0 is 0.80410,pre_0 is 0.924892703863 f1_0 is 0.86028,recall_1 is 0.935779816514 pre_1 is 0.82927, f1_1 is 0.87931
+2023-05-17 21:44:38 LR2.py[line:444] INFO: train_acc: 0.870250231696
+2023-05-17 21:44:38 LR2.py[line:315] INFO: 82 th epoch!
+2023-05-17 21:44:38 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:38 LR2.py[line:418] INFO: test: steps 4,cost 0.90844,recall_0 is 0.82222,pre_0 is 0.880952380952 f1_0 is 0.85057,recall_1 is 0.880952380952 pre_1 is 0.82222, f1_1 is 0.85057
+2023-05-17 21:44:38 LR2.py[line:419] INFO: test: right is110, in pre is 134, in real is 125
+2023-05-17 21:44:38 LR2.py[line:442] INFO: train: steps 4,cost 0.90844,recall_0 is 0.80597,pre_0 is 0.925053533191 f1_0 is 0.86142,recall_1 is 0.935779816514 pre_1 is 0.83062, f1_1 is 0.88007
+2023-05-17 21:44:38 LR2.py[line:444] INFO: train_acc: 0.871177015755
+2023-05-17 21:44:38 LR2.py[line:315] INFO: 83 th epoch!
+2023-05-17 21:44:38 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:38 LR2.py[line:418] INFO: test: steps 4,cost 0.89607,recall_0 is 0.82222,pre_0 is 0.880952380952 f1_0 is 0.85057,recall_1 is 0.880952380952 pre_1 is 0.82222, f1_1 is 0.85057
+2023-05-17 21:44:38 LR2.py[line:419] INFO: test: right is110, in pre is 134, in real is 125
+2023-05-17 21:44:38 LR2.py[line:442] INFO: train: steps 4,cost 0.89607,recall_0 is 0.80784,pre_0 is 0.925213675214 f1_0 is 0.86255,recall_1 is 0.935779816514 pre_1 is 0.83197, f1_1 is 0.88083
+2023-05-17 21:44:38 LR2.py[line:444] INFO: train_acc: 0.872103799815
+2023-05-17 21:44:38 LR2.py[line:315] INFO: 84 th epoch!
+2023-05-17 21:44:38 LR2.py[line:415] INFO: test: the accuracy is 0.853281853282
+2023-05-17 21:44:38 LR2.py[line:418] INFO: test: steps 4,cost 0.88385,recall_0 is 0.82963,pre_0 is 0.88188976378 f1_0 is 0.85496,recall_1 is 0.880952380952 pre_1 is 0.82836, f1_1 is 0.85385
+2023-05-17 21:44:38 LR2.py[line:419] INFO: test: right is110, in pre is 133, in real is 125
+2023-05-17 21:44:38 LR2.py[line:442] INFO: train: steps 4,cost 0.88385,recall_0 is 0.81157,pre_0 is 0.925531914894 f1_0 is 0.86481,recall_1 is 0.935779816514 pre_1 is 0.83470, f1_1 is 0.88235
+2023-05-17 21:44:38 LR2.py[line:444] INFO: train_acc: 0.873957367933
+2023-05-17 21:44:38 LR2.py[line:315] INFO: 85 th epoch!
+2023-05-17 21:44:39 LR2.py[line:415] INFO: test: the accuracy is 0.853281853282
+2023-05-17 21:44:39 LR2.py[line:418] INFO: test: steps 4,cost 0.87180,recall_0 is 0.82963,pre_0 is 0.88188976378 f1_0 is 0.85496,recall_1 is 0.880952380952 pre_1 is 0.82836, f1_1 is 0.85385
+2023-05-17 21:44:39 LR2.py[line:419] INFO: test: right is110, in pre is 133, in real is 125
+2023-05-17 21:44:39 LR2.py[line:442] INFO: train: steps 4,cost 0.87180,recall_0 is 0.81343,pre_0 is 0.923728813559 f1_0 is 0.86508,recall_1 is 0.933944954128 pre_1 is 0.83580, f1_1 is 0.88215
+2023-05-17 21:44:39 LR2.py[line:444] INFO: train_acc: 0.873957367933
+2023-05-17 21:44:39 LR2.py[line:315] INFO: 86 th epoch!
+2023-05-17 21:44:39 LR2.py[line:415] INFO: test: the accuracy is 0.853281853282
+2023-05-17 21:44:39 LR2.py[line:418] INFO: test: steps 4,cost 0.85991,recall_0 is 0.82963,pre_0 is 0.88188976378 f1_0 is 0.85496,recall_1 is 0.880952380952 pre_1 is 0.82836, f1_1 is 0.85385
+2023-05-17 21:44:39 LR2.py[line:419] INFO: test: right is110, in pre is 133, in real is 125
+2023-05-17 21:44:39 LR2.py[line:442] INFO: train: steps 4,cost 0.85991,recall_0 is 0.81530,pre_0 is 0.923890063425 f1_0 is 0.86620,recall_1 is 0.933944954128 pre_1 is 0.83717, f1_1 is 0.88291
+2023-05-17 21:44:39 LR2.py[line:444] INFO: train_acc: 0.874884151993
+2023-05-17 21:44:39 LR2.py[line:315] INFO: 87 th epoch!
+2023-05-17 21:44:39 LR2.py[line:415] INFO: test: the accuracy is 0.853281853282
+2023-05-17 21:44:39 LR2.py[line:418] INFO: test: steps 4,cost 0.84818,recall_0 is 0.82963,pre_0 is 0.88188976378 f1_0 is 0.85496,recall_1 is 0.880952380952 pre_1 is 0.82836, f1_1 is 0.85385
+2023-05-17 21:44:39 LR2.py[line:419] INFO: test: right is110, in pre is 133, in real is 125
+2023-05-17 21:44:39 LR2.py[line:442] INFO: train: steps 4,cost 0.84818,recall_0 is 0.81903,pre_0 is 0.924210526316 f1_0 is 0.86845,recall_1 is 0.933944954128 pre_1 is 0.83993, f1_1 is 0.88445
+2023-05-17 21:44:39 LR2.py[line:444] INFO: train_acc: 0.876737720111
+2023-05-17 21:44:39 LR2.py[line:315] INFO: 88 th epoch!
+2023-05-17 21:44:39 LR2.py[line:415] INFO: test: the accuracy is 0.853281853282
+2023-05-17 21:44:39 LR2.py[line:418] INFO: test: steps 4,cost 0.83662,recall_0 is 0.82963,pre_0 is 0.88188976378 f1_0 is 0.85496,recall_1 is 0.880952380952 pre_1 is 0.82836, f1_1 is 0.85385
+2023-05-17 21:44:39 LR2.py[line:419] INFO: test: right is110, in pre is 133, in real is 125
+2023-05-17 21:44:39 LR2.py[line:442] INFO: train: steps 4,cost 0.83662,recall_0 is 0.82090,pre_0 is 0.924369747899 f1_0 is 0.86957,recall_1 is 0.933944954128 pre_1 is 0.84132, f1_1 is 0.88522
+2023-05-17 21:44:39 LR2.py[line:444] INFO: train_acc: 0.877664504171
+2023-05-17 21:44:39 LR2.py[line:315] INFO: 89 th epoch!
+2023-05-17 21:44:39 LR2.py[line:415] INFO: test: the accuracy is 0.853281853282
+2023-05-17 21:44:39 LR2.py[line:418] INFO: test: steps 4,cost 0.82523,recall_0 is 0.82963,pre_0 is 0.88188976378 f1_0 is 0.85496,recall_1 is 0.880952380952 pre_1 is 0.82836, f1_1 is 0.85385
+2023-05-17 21:44:39 LR2.py[line:419] INFO: test: right is110, in pre is 133, in real is 125
+2023-05-17 21:44:39 LR2.py[line:442] INFO: train: steps 4,cost 0.82523,recall_0 is 0.82836,pre_0 is 0.923076923077 f1_0 is 0.87316,recall_1 is 0.932110091743 pre_1 is 0.84667, f1_1 is 0.88734
+2023-05-17 21:44:39 LR2.py[line:444] INFO: train_acc: 0.880444856348
+2023-05-17 21:44:39 LR2.py[line:315] INFO: 90 th epoch!
+2023-05-17 21:44:39 LR2.py[line:415] INFO: test: the accuracy is 0.853281853282
+2023-05-17 21:44:39 LR2.py[line:418] INFO: test: steps 4,cost 0.81401,recall_0 is 0.82963,pre_0 is 0.88188976378 f1_0 is 0.85496,recall_1 is 0.880952380952 pre_1 is 0.82836, f1_1 is 0.85385
+2023-05-17 21:44:39 LR2.py[line:419] INFO: test: right is110, in pre is 133, in real is 125
+2023-05-17 21:44:39 LR2.py[line:442] INFO: train: steps 4,cost 0.81401,recall_0 is 0.83022,pre_0 is 0.923236514523 f1_0 is 0.87426,recall_1 is 0.932110091743 pre_1 is 0.84808, f1_1 is 0.88811
+2023-05-17 21:44:39 LR2.py[line:444] INFO: train_acc: 0.881371640408
+2023-05-17 21:44:39 LR2.py[line:315] INFO: 91 th epoch!
+2023-05-17 21:44:39 LR2.py[line:415] INFO: test: the accuracy is 0.853281853282
+2023-05-17 21:44:39 LR2.py[line:418] INFO: test: steps 4,cost 0.80295,recall_0 is 0.82963,pre_0 is 0.88188976378 f1_0 is 0.85496,recall_1 is 0.880952380952 pre_1 is 0.82836, f1_1 is 0.85385
+2023-05-17 21:44:39 LR2.py[line:419] INFO: test: right is110, in pre is 133, in real is 125
+2023-05-17 21:44:39 LR2.py[line:442] INFO: train: steps 4,cost 0.80295,recall_0 is 0.83209,pre_0 is 0.921487603306 f1_0 is 0.87451,recall_1 is 0.930275229358 pre_1 is 0.84925, f1_1 is 0.88792
+2023-05-17 21:44:39 LR2.py[line:444] INFO: train_acc: 0.881371640408
+2023-05-17 21:44:39 LR2.py[line:315] INFO: 92 th epoch!
+2023-05-17 21:44:40 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:40 LR2.py[line:418] INFO: test: steps 4,cost 0.79207,recall_0 is 0.82963,pre_0 is 0.875 f1_0 is 0.85171,recall_1 is 0.873015873016 pre_1 is 0.82707, f1_1 is 0.84942
+2023-05-17 21:44:40 LR2.py[line:419] INFO: test: right is109, in pre is 132, in real is 125
+2023-05-17 21:44:40 LR2.py[line:442] INFO: train: steps 4,cost 0.79207,recall_0 is 0.83209,pre_0 is 0.921487603306 f1_0 is 0.87451,recall_1 is 0.930275229358 pre_1 is 0.84925, f1_1 is 0.88792
+2023-05-17 21:44:40 LR2.py[line:444] INFO: train_acc: 0.881371640408
+2023-05-17 21:44:40 LR2.py[line:315] INFO: 93 th epoch!
+2023-05-17 21:44:40 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:40 LR2.py[line:418] INFO: test: steps 4,cost 0.78135,recall_0 is 0.82963,pre_0 is 0.875 f1_0 is 0.85171,recall_1 is 0.873015873016 pre_1 is 0.82707, f1_1 is 0.84942
+2023-05-17 21:44:40 LR2.py[line:419] INFO: test: right is109, in pre is 132, in real is 125
+2023-05-17 21:44:40 LR2.py[line:442] INFO: train: steps 4,cost 0.78135,recall_0 is 0.83396,pre_0 is 0.921649484536 f1_0 is 0.87561,recall_1 is 0.930275229358 pre_1 is 0.85067, f1_1 is 0.88869
+2023-05-17 21:44:40 LR2.py[line:444] INFO: train_acc: 0.882298424467
+2023-05-17 21:44:40 LR2.py[line:315] INFO: 94 th epoch!
+2023-05-17 21:44:40 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:40 LR2.py[line:418] INFO: test: steps 4,cost 0.77081,recall_0 is 0.82963,pre_0 is 0.875 f1_0 is 0.85171,recall_1 is 0.873015873016 pre_1 is 0.82707, f1_1 is 0.84942
+2023-05-17 21:44:40 LR2.py[line:419] INFO: test: right is109, in pre is 132, in real is 125
+2023-05-17 21:44:40 LR2.py[line:442] INFO: train: steps 4,cost 0.77081,recall_0 is 0.83769,pre_0 is 0.920081967213 f1_0 is 0.87695,recall_1 is 0.928440366972 pre_1 is 0.85329, f1_1 is 0.88928
+2023-05-17 21:44:40 LR2.py[line:444] INFO: train_acc: 0.883225208526
+2023-05-17 21:44:40 LR2.py[line:315] INFO: 95 th epoch!
+2023-05-17 21:44:40 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:40 LR2.py[line:418] INFO: test: steps 4,cost 0.76043,recall_0 is 0.82963,pre_0 is 0.875 f1_0 is 0.85171,recall_1 is 0.873015873016 pre_1 is 0.82707, f1_1 is 0.84942
+2023-05-17 21:44:40 LR2.py[line:419] INFO: test: right is109, in pre is 132, in real is 125
+2023-05-17 21:44:40 LR2.py[line:442] INFO: train: steps 4,cost 0.76043,recall_0 is 0.83769,pre_0 is 0.920081967213 f1_0 is 0.87695,recall_1 is 0.928440366972 pre_1 is 0.85329, f1_1 is 0.88928
+2023-05-17 21:44:40 LR2.py[line:444] INFO: train_acc: 0.883225208526
+2023-05-17 21:44:40 LR2.py[line:315] INFO: 96 th epoch!
+2023-05-17 21:44:40 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:40 LR2.py[line:418] INFO: test: steps 4,cost 0.75022,recall_0 is 0.82963,pre_0 is 0.875 f1_0 is 0.85171,recall_1 is 0.873015873016 pre_1 is 0.82707, f1_1 is 0.84942
+2023-05-17 21:44:40 LR2.py[line:419] INFO: test: right is109, in pre is 132, in real is 125
+2023-05-17 21:44:40 LR2.py[line:442] INFO: train: steps 4,cost 0.75022,recall_0 is 0.83769,pre_0 is 0.920081967213 f1_0 is 0.87695,recall_1 is 0.928440366972 pre_1 is 0.85329, f1_1 is 0.88928
+2023-05-17 21:44:40 LR2.py[line:444] INFO: train_acc: 0.883225208526
+2023-05-17 21:44:40 LR2.py[line:315] INFO: 97 th epoch!
+2023-05-17 21:44:40 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:40 LR2.py[line:418] INFO: test: steps 4,cost 0.74018,recall_0 is 0.82963,pre_0 is 0.875 f1_0 is 0.85171,recall_1 is 0.873015873016 pre_1 is 0.82707, f1_1 is 0.84942
+2023-05-17 21:44:40 LR2.py[line:419] INFO: test: right is109, in pre is 132, in real is 125
+2023-05-17 21:44:40 LR2.py[line:442] INFO: train: steps 4,cost 0.74018,recall_0 is 0.83769,pre_0 is 0.920081967213 f1_0 is 0.87695,recall_1 is 0.928440366972 pre_1 is 0.85329, f1_1 is 0.88928
+2023-05-17 21:44:40 LR2.py[line:444] INFO: train_acc: 0.883225208526
+2023-05-17 21:44:40 LR2.py[line:315] INFO: 98 th epoch!
+2023-05-17 21:44:41 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:41 LR2.py[line:418] INFO: test: steps 4,cost 0.73031,recall_0 is 0.82963,pre_0 is 0.875 f1_0 is 0.85171,recall_1 is 0.873015873016 pre_1 is 0.82707, f1_1 is 0.84942
+2023-05-17 21:44:41 LR2.py[line:419] INFO: test: right is109, in pre is 132, in real is 125
+2023-05-17 21:44:41 LR2.py[line:442] INFO: train: steps 4,cost 0.73031,recall_0 is 0.83955,pre_0 is 0.918367346939 f1_0 is 0.87719,recall_1 is 0.926605504587 pre_1 is 0.85448, f1_1 is 0.88908
+2023-05-17 21:44:41 LR2.py[line:444] INFO: train_acc: 0.883225208526
+2023-05-17 21:44:41 LR2.py[line:315] INFO: 99 th epoch!
+2023-05-17 21:44:41 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:41 LR2.py[line:418] INFO: test: steps 4,cost 0.72060,recall_0 is 0.82963,pre_0 is 0.875 f1_0 is 0.85171,recall_1 is 0.873015873016 pre_1 is 0.82707, f1_1 is 0.84942
+2023-05-17 21:44:41 LR2.py[line:419] INFO: test: right is109, in pre is 132, in real is 125
+2023-05-17 21:44:41 LR2.py[line:442] INFO: train: steps 4,cost 0.72060,recall_0 is 0.84142,pre_0 is 0.918533604888 f1_0 is 0.87829,recall_1 is 0.926605504587 pre_1 is 0.85593, f1_1 is 0.88987
+2023-05-17 21:44:41 LR2.py[line:444] INFO: train_acc: 0.884151992586
+2023-05-17 21:44:41 LR2.py[line:315] INFO: 100 th epoch!
+2023-05-17 21:44:41 LR2.py[line:415] INFO: test: the accuracy is 0.849420849421
+2023-05-17 21:44:41 LR2.py[line:418] INFO: test: steps 4,cost 0.71106,recall_0 is 0.82963,pre_0 is 0.875 f1_0 is 0.85171,recall_1 is 0.873015873016 pre_1 is 0.82707, f1_1 is 0.84942
+2023-05-17 21:44:41 LR2.py[line:419] INFO: test: right is109, in pre is 132, in real is 125
+2023-05-17 21:44:41 LR2.py[line:442] INFO: train: steps 4,cost 0.71106,recall_0 is 0.84328,pre_0 is 0.918699186992 f1_0 is 0.87938,recall_1 is 0.926605504587 pre_1 is 0.85739, f1_1 is 0.89065
+2023-05-17 21:44:41 LR2.py[line:444] INFO: train_acc: 0.885078776645

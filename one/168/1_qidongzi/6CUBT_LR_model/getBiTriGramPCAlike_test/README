@@ -1,0 +1,28 @@
+1 将分好词的文件放到raw_data/ 目录下，名字任意，格式为： 原是问句（\t）分词问句（\t）标签（\t）其他1（\t）....(\n)
+
+2 python 1getLableCharUniBiTri2cnt.py --file 文件名    在result 文件夹中会出现 XX2cnt文件
+ '--file', default='test_uni_parser', type=str, help='输入待分词文件'
+ '--min_count_char', default=5, type=int, help='字出现的最小频率'
+ '--min_count_uni', default=5, type=int, help='单词出现的最小频率'
+ '--min_count_bi', default=5, type=str, help='bi-gram出现的最小频率'
+ '--min_count_tri', default=5, type=str, help='tri-gram出现的最小频率'
+
+3 python 2getClassify_data.py --file 文件名     在classify_data/目录下会给出    label_0,label_1等文件，格式为  
+               "%s\t%s\t%s\t%s\t%s\t%s\t%s\n"%(char.encode("utf-8"),uni,bi,tri,label2id[label],raw_query,label)
+'--file', default='test_uni_parser', type=str, help='输入待分词文件'
+
+4 python 3ExtractFeatureFromCUBT.py   在statictical_sample目录下给出 tri（char/uni/bi）_feature_label_0(1/2/3...) 等汶口按摩
+'--sample_size', default=2.0, type=float, help='采样的样本数量与本类样本数量的比值'
+
+5 python 4getCharUniBiTri2id.py   在result文件夹中给出   tri（char/uni/bi）2id
+'--high', default=5.0, type=float, help='特征在正样本中出现与负样本中出现次数比的最小是'
+'--low', default=0.10, type=float, help='特征在正样本中出现与负样本中出现次数比的最大值'
+
+6 python 4.5getFeatureLimit.py  在result中给出  tri（char/uni/bi）_len2cnt
+
+7 python getXY.py 在result中给出 xy_train  xy_test
+'--limit_char', default=800, type=int, help='每个样本字的最大数量'
+'--limit_uni', default=500, type=int, help='每个样本词的最大数量'
+'--limit_bi', default=300, type=int, help='每个样本bi-gram的最大数量'
+'--limit_tri', default=300, type=int, help='每个样本tri-gram的最大数量'
+'--portion', default=0.20, type=float, help='测试与训练集的比例'
