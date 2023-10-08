@@ -1,9 +1,10 @@
-该方法适合处理 ，由于预处理复杂程度随着样本量的增加而迅速增加，因此 适合处理样本量较少的任务
+This method is suitable for tasks with small sample sizes as the preprocessing complexity increases rapidly with sample size
 
-1 进入 getBiTriGram/ 或者进入 getBiTriGramPCAlike, 将训练集和测试集方法 raw_data目录下，名字任意，格式为  原始问句\t分词结果\t标签\n
-2 运行  sh getXY_train.sh raw_data/trainfilename
-3 运行  sh getXY_test.sh raw_data/testfilename
-4 运行  sh sentdataToModel.sh 
 
-5 进入 LR_model/ 目录   运行 python main.py --train True --extra_test1 data/xy_test
-        如果报错，需要在  LR_model/data/dict中将其他文件的字典清除
+The data are stored in the Data folder test_rd_parser for the test set and train_rd_parser for the test set. The format is Sequence\t Label\n
+
+1 Go to getBiTriGramPCAlike_test Run the script sh CUBT_autoGetID.sh .
+2 Run the LR_model folder and run the script sh CUBT_autoTrainPb_PCAlike.sh
+
+
+The results are viewed in the log_log.
