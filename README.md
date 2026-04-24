@@ -6,7 +6,7 @@ Only one species is uploaded above as an example
 After the three models are predicted, running vote_2.py will conduct a vote, and the vote_result folder stores the voting results.
 
 
-The comparison learning method and MLP method are run on ptorch 1.7.1 or above, python==3.8.
+The comparison learning method and MLP method are run on torch 1.7.1 or above, python==3.8.
 The rsk method runs on environment tf1.14, python==2.7
 
 
